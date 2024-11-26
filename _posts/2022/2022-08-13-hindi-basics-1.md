@@ -261,7 +261,7 @@ xxx का/की/के/की … है/हैं । for people such as rela
 आप जी जा सकते हैं ।
 
 … को + infinitive in oblique + देना । let … do  
-Here, "oblique" means declined, with -ने in place of -ना, or -नि if admitting a feminine direct object, see [११]({{ site.baseurl }}/2022/08/14/hindi-basics-2.html#११).
+Here, "oblique" means declined, with -ने in place of -ना, or -नि if admitting a feminine direct object, see [११](/2022/08/14/hindi-basics-2.html#११).
 
 > हम बक्कों को खेलने देते हैं ।  
 > मुझको जाने दो/दीजिए ।
