@@ -6,13 +6,13 @@ layout: page
 if_print_post_list: false
 ---
 
-Welcome to my homepage !
+## Welcome to my homepage !
 
 <h2 align="center">
 * &nbsp; * &nbsp; *
 </h2>
 
-Updated:
+Last updated:
 
 <h2 align="center">
 * &nbsp; * &nbsp; *
