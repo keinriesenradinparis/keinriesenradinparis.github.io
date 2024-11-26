@@ -1,63 +1,10 @@
-- The webversion is [here](https://keinriesenradinparis.github.io/)
+The webversion is [here](https://keinriesenradinparis.github.io/)
 
---------------
-Nonsense below.
+## Content
 
-# Extremely strange
-This is a line
+This is a personal blog containing a lot of random notes.
 
-And any text with no empty lines between will become a paragraph.
+The main sections are [languages studying](/languages.html) and the [info page](/basicfrenchsummary.md) of my French course for immigrants.
 
-Font: *Italic* or **Bold** or ***Bold and italic***, and `highlight`, and ~~delete~~.
-
-## Header two
-
-New paragraph.
-Hyperlink looks like [Github Help](www.google.com).
-
-# Header one ?
-
-### Header three
-
-Bullet list:
-
-- cates
-- dosg
-
-* asd
-* asd
-
-+ asd 
-+ asd 
-
-
-Another type of lists:
-
-\- asdalksdj
-
-Numnbered list:
-
-1.
-2.
-3.
-
-Horizontal line
-
-asdasd
------------------------------------------------------------------
-
-### asda
------------------------------
-
-
-> block quote
-> block quote
-
-
-table is like this:
-
-| | | |
-|-|-|-|
-| header | column | column2 |
-| ---    |        |   something |
+There are also some musical stuff.
 

@@ -55,9 +55,8 @@ defaults:
 # this and add the path to the pages in order as they should show up
 header_pages:
 - _pages/languages.md
-- about.md
-# - _pages/2022-07-03-voyages.md
 - basicfrenchsummary.md
+- about.md
 
 include:
 - /_pages
