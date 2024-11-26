@@ -56,6 +56,8 @@ asdasd
 
 table is like this:
 
+| | | |
+|-|-|-|
 | header | column | column2 |
 | ---    |        |   something |
 

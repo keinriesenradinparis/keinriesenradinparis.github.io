@@ -151,6 +151,6 @@ partire：
 | voi/Voi       |  -er-ete  |  -er-ete  |  -ir-ete
 | loro/Loro     |  -er-anno |  -er-anno |  -ir-anno
 
-可以将这里的词尾同马上要介绍的[avere（有）的直陈式现在时变位]({{ site.baseurl }}/2021/07/01/4-coniugazione-dei-verbi-essere-avere-e-stare.html)进行对比。
+可以将这里的词尾同马上要介绍的[avere（有）的直陈式现在时变位](/2021/07/01/4-coniugazione-dei-verbi-essere-avere-e-stare.html)进行对比。
 
 一些动词会把语尾中 -er- 或 -ir- **都**缩为 -r-，因为这个元音 e 或 i 太“弱”了，况且重音落在该元音之后，以至于它在语言的演变中逐渐被丢失掉（首先是发音上，然后是书写上）。例如：avere，io avrò；andare “走”，io andrò；dare “给”，io darò；fare；stare。

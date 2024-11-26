@@ -26,33 +26,33 @@ if_print_post_list: false
 
 ## 报名（课程暂停）
 
-第八期[报名信息页]({{ site.baseurl }}/2023/09/22/法语报名.html)
+第八期[报名信息页]({{/2023/09/22/法语报名.html)
 
 ## 启蒙20
 
 **课前要求：**
 - 语音：需要了解常用字母组合的发音，见下方👇的[零基础](#零基础)部分。
-- 动词：需要了解 être, avoir, faire, aller 以及其他所有 -er 规则动词的变位，见[此页面]({{ site.baseurl }}/2022/12/16/法语简单动词变位.html)。
+- 动词：需要了解 être, avoir, faire, aller 以及其他所有 -er 规则动词的变位，见[此页面]({{/2022/12/16/法语简单动词变位.html)。
 
 **讲义和音视频：**  
-- [01.pdf]({{ site.baseurl }}/assets/doc/NdCS7/01.pdf), 
-  [33.mp3]({{ site.baseurl }}/assets/audio/33 Pista 33.mp3), 
-  [34.mp3]({{ site.baseurl }}/assets/audio/34 Pista 34.mp3),  
-- [02-03.pdf]({{ site.baseurl }}/assets/doc/NdCS7/02-03.pdf), 
+- [01.pdf](/assets/doc/NdCS7/01.pdf), 
+  [33.mp3](/assets/audio/33 Pista 33.mp3), 
+  [34.mp3](/assets/audio/34 Pista 34.mp3),  
+- [02-03.pdf](/assets/doc/NdCS7/02-03.pdf), 
   [vidéo](https://youtu.be/gq0ZTbmylb4 "Texto 1 | Dossier 4 Achats") (veste),
   [vidéo](https://youtu.be/C4RqX4Jp3es "J'achète des chaussures au magasin de chaussures") (chaussures),
-  [39.mp3]({{ site.baseurl }}/assets/audio/39 Pista 39.mp3)  
+  [39.mp3](/assets/audio/39 Pista 39.mp3)  
 - 04-05.pdf, 
   [vidéo](https://youtu.be/6h16i6IknF8 "Reflets 1 | Episode 14 Faisons le marché"),  
 - 06-07.pdf,
   [audio](https://youtu.be/O6IjKOeIEgQ "Le Nouveau Taxi 1 | Leçon 10 C'est par où ?"),  
-- [09-10.pdf]({{ site.baseurl }}/assets/doc/NdCS7/09-10.pdf), 
-  [10-notes.pdf]({{ site.baseurl }}/assets/doc/NdCS7/10%20-%20notes.pdf), 
+- [09-10.pdf](/assets/doc/NdCS7/09-10.pdf), 
+  [10-notes.pdf](/assets/doc/NdCS7/10%20-%20notes.pdf), 
   [audio](https://youtu.be/08JWfJfZwBQ "Le Nouveau Taxi 1 | Leçon 15 Le Dimanche Matin"),  
 - 11-13.pdf, 
   [audio](https://youtu.be/tYZng_65cjA "Le Nouveau Taxi 1 | Leçon 18 Il est comment ?"),  
-- [14.pdf]({{ site.baseurl }}/assets/doc/NdCS7/14.pdf), 
-  [14-slides.pdf]({{ site.baseurl }}/assets/doc/NdCS7/14%20-%20slides%20(handout).pdf), 
+- [14.pdf](/assets/doc/NdCS7/14.pdf), 
+  [14-slides.pdf](/assets/doc/NdCS7/14%20-%20slides%20(handout).pdf), 
   [audio](https://youtu.be/sy7WJceOsEM "法语交际口语渐进 中级 原文对照 Leçon 6 Dans une grande surface")
 
 **课程安排及内容补充：**
@@ -71,15 +71,15 @@ if_print_post_list: false
   - 语法：复合过去时（[vidéo](https://youtube.com/playlist?list=PLTqYSrQbW-6vizJZJXbWhYRO63JrxKo_Z "Le 🇫🇷FLE A1 conjugaison passé composé")）
 - 第十四课：C'est remboursable ?  
 
-**语法点总结**：见[此页面]({{ site.baseurl }}/2023/06/04/法语基本语法-2.html)
+**语法点总结**：见[此页面](/2023/06/04/法语基本语法-2.html)
 
 <!-- {% assign posts = site.tags["启蒙20"] %} -->
 <!-- {% include print_posts_simple.html content=posts %} -->
 
 **拓展：法国歌曲：**
-- [法国国歌 La Marseillaise 《马赛曲》]({{ site.baseurl }}/2023/04/02/marseillaise.html)  
-- [Claude François - Comme d'habitude]({{ site.baseurl }}/2023/04/07/comme-d-habitude.html)
-- [Édith Piaf - Hymne à l'amour 《爱的礼赞》]({{ site.baseurl }}/2023/04/08/hymne-a-l-amour.html)
+- [法国国歌 La Marseillaise 《马赛曲》](/2023/04/02/marseillaise.html)  
+- [Claude François - Comme d'habitude](/2023/04/07/comme-d-habitude.html)
+- [Édith Piaf - Hymne à l'amour 《爱的礼赞》](/2023/04/08/hymne-a-l-amour.html)
 
 <h2 align="center">
 * &nbsp; * &nbsp; *
@@ -88,27 +88,27 @@ if_print_post_list: false
 ## 零基础
 
 **讲义 PDF：**
-[01]({{ site.baseurl }}/assets/doc/NdCS6/01%20-%20compl.pdf),
-[02]({{ site.baseurl }}/assets/doc/NdCS6/02%20-%20compl.pdf),
-[03-04]({{ site.baseurl }}/assets/doc/NdCS6/03%20-%20compl.pdf),
-[05]({{ site.baseurl }}/assets/doc/NdCS6/05%20-%20compl.pdf),
-[06]({{ site.baseurl }}/assets/doc/NdCS6/06%20-%20compl.pdf),
-[07-08]({{ site.baseurl }}/assets/doc/NdCS6/07.pdf),
-[09]({{ site.baseurl }}/assets/doc/NdCS6/09.pdf),
-[10]({{ site.baseurl }}/assets/doc/NdCS6/10.pdf),
-[11]({{ site.baseurl }}/assets/doc/NdCS6/11.pdf),
-[12]({{ site.baseurl }}/assets/doc/NdCS6/12%20-%20compl.pdf),
-[13]({{ site.baseurl }}/assets/doc/NdCS6/13.pdf),
-14 ([Cahier]({{ site.baseurl }}/assets/doc/NdCS6/Cahier.pdf))
+[01](/assets/doc/NdCS6/01%20-%20compl.pdf),
+[02](/assets/doc/NdCS6/02%20-%20compl.pdf),
+[03-04](/assets/doc/NdCS6/03%20-%20compl.pdf),
+[05](/assets/doc/NdCS6/05%20-%20compl.pdf),
+[06](/assets/doc/NdCS6/06%20-%20compl.pdf),
+[07-08](/assets/doc/NdCS6/07.pdf),
+[09](/assets/doc/NdCS6/09.pdf),
+[10](/assets/doc/NdCS6/10.pdf),
+[11](/assets/doc/NdCS6/11.pdf),
+[12](/assets/doc/NdCS6/12%20-%20compl.pdf),
+[13](/assets/doc/NdCS6/13.pdf),
+14 ([Cahier](/assets/doc/NdCS6/Cahier.pdf))
 
 **Cahier 音频 MP3：**
-[05]({{ site.baseurl }}/assets/audio/05%20Pista%205.mp3),
-[06]({{ site.baseurl }}/assets/audio/06%20Pista%206.mp3),
-[11]({{ site.baseurl }}/assets/audio/11%20Pista%2011.mp3),
-[12]({{ site.baseurl }}/assets/audio/12%20Pista%2012.mp3),
-[23]({{ site.baseurl }}/assets/audio/23%20Pista%2023.mp3),
-[26]({{ site.baseurl }}/assets/audio/26%20Pista%2026.mp3),
-[34]({{ site.baseurl }}/assets/audio/34%20Pista%2034.mp3)
+[05](/assets/audio/05%20Pista%205.mp3),
+[06](/assets/audio/06%20Pista%206.mp3),
+[11](/assets/audio/11%20Pista%2011.mp3),
+[12](/assets/audio/12%20Pista%2012.mp3),
+[23](/assets/audio/23%20Pista%2023.mp3),
+[26](/assets/audio/26%20Pista%2026.mp3),
+[34](/assets/audio/34%20Pista%2034.mp3)
 
 **语音：字母组合**：
 - 鼻音：on, an/en, in, (un)  
@@ -122,11 +122,11 @@ if_print_post_list: false
 - y 相当于一个 i 或者 i+i
 
 **知识点总结：**
-- [语音练习]({{ site.baseurl }}/2022/09/30/法语语音练习.md)
-- [基本自我介绍]({{ site.baseurl }}/2022/12/15/法语基本自我介绍.html)
-- [基本会话]({{ site.baseurl }}/2022/12/16/法语基本会话.html)
-- [简单动词变位]({{ site.baseurl }}/2022/12/17/法语简单动词变位.html)
-- [基本语法]({{ site.baseurl }}/2022/12/18/法语基本语法.html)
+- [语音练习](/2022/09/30/法语语音练习.md)
+- [基本自我介绍](/2022/12/15/法语基本自我介绍.html)
+- [基本会话](/2022/12/16/法语基本会话.html)
+- [简单动词变位](/2022/12/17/法语简单动词变位.html)
+- [基本语法](/2022/12/18/法语基本语法.html)
 
 <!-- {% assign posts = site.posts | where:"tags", "零基础" %} -->
 <!-- {% include print_posts_simple.html content=posts %} -->
@@ -138,20 +138,20 @@ if_print_post_list: false
 ## 启蒙50
 
 **讲义 PDF：**
-[01]({{ site.baseurl }}/assets/doc/NdCS5/01.pdf),
-[02]({{ site.baseurl }}/assets/doc/NdCS5/02.pdf),
-[03]({{ site.baseurl }}/assets/doc/NdCS5/03.pdf),
-[04]({{ site.baseurl }}/assets/doc/NdCS5/04.pdf),
-[05]({{ site.baseurl }}/assets/doc/NdCS5/05v2.pdf),
-[06]({{ site.baseurl }}/assets/doc/NdCS5/06.pdf),
-[07]({{ site.baseurl }}/assets/doc/NdCS5/07.pdf),
+[01](/assets/doc/NdCS5/01.pdf),
+[02](/assets/doc/NdCS5/02.pdf),
+[03](/assets/doc/NdCS5/03.pdf),
+[04](/assets/doc/NdCS5/04.pdf),
+[05](/assets/doc/NdCS5/05v2.pdf),
+[06](/assets/doc/NdCS5/06.pdf),
+[07](/assets/doc/NdCS5/07.pdf),
 08,
 09,
 10,
-[11]({{ site.baseurl }}/assets/doc/NdCS5/11.pdf),
-[12]({{ site.baseurl }}/assets/doc/NdCS5/12v2.pdf),
-[13]({{ site.baseurl }}/assets/doc/NdCS5/13v2.pdf),
-[14]({{ site.baseurl }}/assets/doc/NdCS5/14.pdf)
+[11](/assets/doc/NdCS5/11.pdf),
+[12](/assets/doc/NdCS5/12v2.pdf),
+[13](/assets/doc/NdCS5/13v2.pdf),
+[14](/assets/doc/NdCS5/14.pdf)
 
 <h2 align="center">
 * &nbsp; * &nbsp; *
@@ -160,7 +160,7 @@ if_print_post_list: false
 ## 零基础
 
 **讲义 PDF/PPT：**
- 01, 02, 03, 04, 05, 06, 07, [08]({{ site.baseurl }}/assets/doc/NdCS4/08.pdf) (期中复习课), 09, 10, 11, 12, 13, 14
+ 01, 02, 03, 04, 05, 06, 07, [08](/assets/doc/NdCS4/08.pdf) (期中复习课), 09, 10, 11, 12, 13, 14
 
 <h2 align="center">
 * &nbsp; * &nbsp; *
@@ -180,4 +180,4 @@ B站：
 - [【上海外国语大学】新公共法语初级 李沁 吴贤良（全167讲）](https://www.bilibili.com/video/BV1PB4y1D7vM/?vd_source=60491a3e04ba343eaf8d68615b495223)，全长九个多小时
 - [给儿童看的法语资源](https://www.bilibili.com/medialist/detail/ml2340988661)，绝大部分是中法双字幕的
 
-公共法语（老版）上册音频：[第1-20课压缩包]({{ site.baseurl }}/assets/audio/gonggongfayushang1.zip)，[第21-36课压缩包]({{ site.baseurl }}/assets/audio/gonggongfayushang2.zip)
+公共法语（老版）上册音频：[第1-20课压缩包](/assets/audio/gonggongfayushang1.zip)，[第21-36课压缩包](/assets/audio/gonggongfayushang2.zip)

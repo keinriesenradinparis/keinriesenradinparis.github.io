@@ -32,9 +32,9 @@ In Thai, all sibilants are pronounced as /s/, never a retroflex nor palatalised 
 
 Traditional Thai keyboard:
 
-![Thai keyboard]({{ site.baseurl }}/assets/img/thai-kedmanee-keyboard-1.png)
+![Thai keyboard](/assets/img/thai-kedmanee-keyboard-1.png)
 
-![Thai keyboard with Shift]({{ site.baseurl }}/assets/img/thai-kedmanee-keyboard-2-shift.png)
+![Thai keyboard with Shift](/assets/img/thai-kedmanee-keyboard-2-shift.png)
 
 ## 2022.12-2023.01
 

@@ -21,7 +21,7 @@ categories:
 
 ### 满文书写
 
-[字母表手写笔记.pdf]({{ site.baseurl }}/assets/doc/满文字母笔记-2023-02-05.pdf)（参考乌拉熙春所著《满语读本》）
+[字母表手写笔记.pdf](/assets/doc/满文字母笔记-2023-02-05.pdf)（参考乌拉熙春所著《满语读本》）
 
 ### 字母表
 
@@ -109,4 +109,4 @@ categories:
 
 张春阳满语语法课程：
 - [b站视频](https://www.bilibili.com/video/BV13q4y1c72H/?vd_source=60491a3e04ba343eaf8d68615b495223)
-- [手写笔记.pdf]({{ site.baseurl }}/assets/doc/张春阳满语语法笔记-2023-02-18.pdf)
+- [手写笔记.pdf](/assets/doc/张春阳满语语法笔记-2023-02-18.pdf)
