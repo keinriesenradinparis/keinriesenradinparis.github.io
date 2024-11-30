@@ -7,7 +7,7 @@ layout: page
 if_print_post_list: false
 ---
 
-最新更新:
+Last updated:
 
 - （26/11/2024）法语单词及其发音（每周更新十个单词）[PDF](/assets/doc/Vocab_Fr.pdf)。
 
