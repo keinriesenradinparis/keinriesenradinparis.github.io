@@ -19,7 +19,7 @@
 <body>
   <h1 style="text-align: center; justify-content: center;">报销列表</h1>
 
-  <div style="margin: 0.5rem auto 0 auto; margin-left: auto; width: 800px; text-align: left; font-size: 0.9rem; color: #666; font-style: italic;">
+  <div style="margin: 0.5rem auto 0 auto; margin-left: auto; max-width: 800px; text-align: left; font-size: 0.9rem; color: #666; font-style: italic;">
     <ul>
         <li>本网页不保存实际文件，只保存文件名。</li>
         <li>填写完成后，点击“提交/保存”，然后点击“导出xlsx”，连同发票文件一同打包发给Shuyue。</li>
@@ -48,8 +48,8 @@
   </table>
 
   <div class="actions" style="margin: 1rem auto 0; font-size: 0.9rem; text-align: center; max-width: 400px; display: flex; justify-content: center; gap: 1rem;">
-    <button onclick="addRow()">新增一行</button>
-    <button onclick="saveData()">提交 / 保存</button>
+    <button onclick="addRow()" style="font-size: 0.8rem;">新增一行</button>
+    <button onclick="saveData()" style="font-size: 0.8rem;">提交 / 保存</button>
   </div>
 
   <br>
@@ -278,7 +278,7 @@
             <td><input type="text" value="${row.note}"></td>
             <td>
                 <div class="file-link">${row.fileName ? `<a href="/img/${row.fileName}" target="_blank">${row.fileName}</a>` : ''}</div>
-                <button type="button" onclick="editFile(this)" style="padding: 0.05rem 0.6rem; font-size: 0.8rem;">修改</button>
+                <button type="button" onclick="editFile(this)" style="padding: 0.05rem 0.6rem; font-size: small;">修改</button>
                 <input type="file" accept="image/*,application/pdf" style="display:none" onchange="handleFileChange(this)">
                 <input type="hidden" class="file-name-input" value="${row.fileName || ''}">
             </td>
