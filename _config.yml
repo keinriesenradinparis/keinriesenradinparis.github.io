@@ -70,7 +70,8 @@ include:
  
 # Post permalink
 # permalink: /:year/:month/:day/:title:output_ext
-permalink: /:basename:output_ext
+permalink: /:year-:month-:day-:title:output_ext
+
 
 
 # feed:
