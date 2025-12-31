@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>报销列表</title>
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem; }
+    h1 { font-size: 1.5rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
+    th { background: #f5f5f5; }
+    input[type="text"], input[type="number"], input[type="date"] { width: 100%; box-sizing: border-box; }
+    .actions { margin-top: 1rem; display: flex; gap: 1rem; }
+    button { padding: 0.5rem 1rem; cursor: pointer; }
+    tfoot td { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center; justify-content: center;">报销列表</h1>
+
+  <div style="margin: 0.5rem auto 0 auto; margin-left: auto; width: 800px; text-align: left; font-size: 0.9rem; color: #666; font-style: italic;">
+    <ul>
+        <li>本网页不保存实际文件，只保存文件名。</li>
+        <li>填写完成后，点击“提交/保存”，然后点击“导出xlsx”，连同发票文件一同打包发给Shuyue。</li>
+    </ul> 
+  </div>
+
+  <table id="reimbursementTable">
+    <thead>
+      <tr>
+        <th>日期</th>
+        <th>事项说明</th>
+        <th>金额 (€)</th>
+        <th>备注</th>
+        <th>发票文件</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2">合计</td>
+        <td id="totalAmount">0.00</td>
+        <td colspan="2"></td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <div class="actions" style="margin: 1rem auto 0; font-size: 0.9rem; text-align: center; max-width: 400px; display: flex; justify-content: center; gap: 1rem;">
+    <button onclick="addRow()">新增一行</button>
+    <button onclick="saveData()">提交 / 保存</button>
+  </div>
+
+  <br>
+
+  <div class="actions" style="margin: 1rem auto 0; font-size: 0.9rem; text-align: center; max-width: 400px; display: flex; justify-content: center; gap: 1rem;">
+    <button onclick="exportCSV()" style="padding: 0.05rem 0.6rem; font-size: 0.8rem;">导出 CSV</button>
+    <button onclick="exportXLSX()" style="padding: 0.05rem 0.6rem; font-size: 0.8rem;">导出 XLSX</button>
+    <button onclick="exportODS()" style="padding: 0.05rem 0.6rem; font-size: 0.8rem;">导出 ODS</button>
+  </div>
+
+  <script>
+    function addRow() {
+      const tbody = document.querySelector('#reimbursementTable tbody');
+      const tr = document.createElement('tr');
+
+      tr.innerHTML = `
+        <td><input type="date"></td>
+        <td><input type="text" placeholder="如：交通费"></td>
+        <td><input type="number" step="1" value="0" oninput="updateTotal()"></td>
+        <td><input type="text"></td>
+        <td>
+            <input type="file" accept="image/*,application/pdf"
+                onchange="handleFileSelect(this)">
+            <input type="hidden" class="file-name-input">
+            <div class="file-link"></div>
+        </td>
+        <td><button onclick="removeRow(this)">删除</button></td>
+      `;
+
+      tbody.appendChild(tr);
+      updateTotal();
+    }
+
+    function removeRow(btn) {
+      btn.closest('tr').remove();
+      updateTotal();
+    }
+
+    function updateTotal() {
+      let total = 0;
+      document.querySelectorAll('tbody input[type="number"]').forEach(input => {
+        total += parseFloat(input.value) || 0;
+      });
+      document.getElementById('totalAmount').textContent = total.toFixed(2);
+    }
+
+    function exportCSV() {
+        let rows = [["日期", "事项说明", "金额", "备注", "发票文件名"]];
+        document.querySelectorAll('tbody tr').forEach(tr => {
+            const inputs = tr.querySelectorAll('input');
+            const fileLink = tr.querySelector('.file-link a');
+            const fileName = fileLink ? fileLink.textContent : '';
+            // const fileCell = fileName
+            //     ? `=HYPERLINK("img/${fileName}","${fileName}")`
+            //     : '';
+            rows.push([
+                inputs[0].value,                  // 日期
+                inputs[1].value,                  // 事项说明
+                inputs[2].value,                  // 金额
+                inputs[3].value,                  // 备注
+                fileName                          // 发票文件名
+            ]);
+      });
+
+      const csvContent = rows.map(r => r.join(',')).join('\n');
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'reimbursement.csv';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function exportODS() {
+        // 准备数据数组，首行为标题
+        const rows = [["日期", "事项说明", "金额 (€)", "备注", "发票文件名"]];
+
+        // 遍历表格每一行，取值加入数组
+        document.querySelectorAll('tbody tr').forEach(tr => {
+            const inputs = tr.querySelectorAll('input');
+            const fileLink = tr.querySelector('.file-link a');
+            const fileName = fileLink ? fileLink.textContent : '';
+            // const fileCell = fileName
+            //     ? `=HYPERLINK("img/${fileName}","${fileName}")`
+            //     : '';
+            rows.push([
+                inputs[0].value,
+                inputs[1].value,
+                inputs[2].value,
+                inputs[3].value,
+                fileName
+            ]);
+        });
+
+        // 使用 SheetJS 转成工作表、工作簿
+        const ws = XLSX.utils.aoa_to_sheet(rows);
+
+        // 为发票文件名列添加超链接属性（第5列，索引4）
+        for (let i = 1; i < rows.length; i++) {
+            const cellAddress = XLSX.utils.encode_cell({ r: i, c: 4 });
+            const fileName = rows[i][4];
+            if (fileName) {
+            ws[cellAddress].l = { Target: `img/${fileName}`, Tooltip: fileName };
+            ws[cellAddress].v = fileName; // 显示文件名文本
+            }
+        }
+
+        const wb = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(wb, ws, "报销");
+
+        // 导出为 ods 文件
+        XLSX.writeFile(wb, "reimbursement.ods", { bookType: "ods" });
+    }
+
+    function exportXLSX() {
+        // 准备数据数组，首行为标题
+        const rows = [["日期", "事项说明", "金额 (€)", "备注", "发票文件名"]];
+
+        document.querySelectorAll('tbody tr').forEach(tr => {
+            const inputs = tr.querySelectorAll('input[type="text"], input[type="number"], input[type="date"]');
+            const fileNameInput = tr.querySelector('.file-name-input');
+            const fileName = fileNameInput ? fileNameInput.value : '';
+            rows.push([
+            inputs[0].value,
+            inputs[1].value,
+            inputs[2].value,
+            inputs[3].value,
+            fileName
+            ]);
+        });
+
+        const ws = XLSX.utils.aoa_to_sheet(rows);
+
+        // 为发票文件名列添加超链接属性（第5列，索引4）
+        for (let i = 1; i < rows.length; i++) {
+            const cellAddress = XLSX.utils.encode_cell({ r: i, c: 4 });
+            const fileName = rows[i][4];
+            if (fileName) {
+            ws[cellAddress].l = { Target: `img/${fileName}`, Tooltip: fileName };
+            ws[cellAddress].v = fileName; // 显示文件名文本
+            }
+        }
+
+        const wb = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(wb, ws, "报销");
+
+        XLSX.writeFile(wb, "reimbursement.xlsx", { bookType: "xlsx" });
+    }
+
+    function handleFileSelect(input) {
+        const file = input.files[0];
+        const container = input.nextElementSibling;
+        const hiddenInput = input.parentElement.querySelector('.file-name-input');
+        container.innerHTML = '';
+        if (!file) {
+            hiddenInput.value = '';
+            return;
+        }
+
+        const link = document.createElement('a');
+        link.textContent = file.name;
+        link.href = URL.createObjectURL(file);
+        link.target = '_blank';
+        container.appendChild(link);
+
+        hiddenInput.value = file.name; // 更新隐藏 input
+    }
+
+    function editFile(button) {
+        const fileInput = button.nextElementSibling;
+        fileInput.click();
+    }
+
+    function handleFileChange(input) {
+        const file = input.files[0];
+        const container = input.previousElementSibling;
+        const hiddenInput = input.parentElement.querySelector('.file-name-input');
+        container.innerHTML = '';
+        if (!file) {
+            hiddenInput.value = '';
+            return;
+        }
+
+        const link = document.createElement('a');
+        link.textContent = file.name;
+        link.href = `/img/${file.name}`;
+        link.target = '_blank';
+        container.appendChild(link);
+
+        hiddenInput.value = file.name; // 更新隐藏 input
+    }
+
+    function saveData() {
+        const data = [];
+        document.querySelectorAll('tbody tr').forEach(tr => {
+            const inputs = tr.querySelectorAll('input');
+            const fileLink = tr.querySelector('.file-link a');
+            const fileNameInput = tr.querySelector('.file-name-input');
+            data.push({
+                date: inputs[0].value,
+                item: inputs[1].value,
+                amount: inputs[2].value,
+                note: inputs[3].value,
+                // fileName: fileLink ? fileLink.textContent : ''
+                fileName: fileNameInput ? fileNameInput.value : ''
+            });
+        });
+        localStorage.setItem('reimbursementData', JSON.stringify(data));
+        location.reload();
+    }
+
+    function loadData() {
+        const saved = localStorage.getItem('reimbursementData');
+        if (!saved) return;
+        const data = JSON.parse(saved);
+        const tbody = document.querySelector('#reimbursementTable tbody');
+        tbody.innerHTML = '';
+        data.forEach(row => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+            <td><input type="date" value="${row.date}"></td>
+            <td><input type="text" value="${row.item}"></td>
+            <td><input type="number" step="1" value="${row.amount}" oninput="updateTotal()"></td>
+            <td><input type="text" value="${row.note}"></td>
+            <td>
+                <div class="file-link">${row.fileName ? `<a href="/img/${row.fileName}" target="_blank">${row.fileName}</a>` : ''}</div>
+                <button type="button" onclick="editFile(this)" style="padding: 0.05rem 0.6rem; font-size: 0.8rem;">修改</button>
+                <input type="file" accept="image/*,application/pdf" style="display:none" onchange="handleFileChange(this)">
+                <input type="hidden" class="file-name-input" value="${row.fileName || ''}">
+            </td>
+            <td><button onclick="removeRow(this)">删除</button></td>
+            `;
+            tbody.appendChild(tr);
+        });
+
+        if (!data || data.length === 0) {
+            addRow();  // 无数据时添加空白行
+        } else {
+            data.forEach(row => {
+            // 生成tr代码...
+            });
+        }
+
+        updateTotal();
+    }
+
+    loadData();
+    // addRow();
+  </script>
+  <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+</body>
+</html>
