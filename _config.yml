@@ -10,7 +10,7 @@ kramdown:
   parse_block_html: true
   parse_inline_html: true
   toc_levels: 2..3
-  input: Kramdown
+  input: GFM
 
 # URL VARIABLES [optional!]
 #
