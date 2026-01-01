@@ -58,6 +58,7 @@
     <button onclick="exportCSV()" style="padding: 0.05rem 0.6rem; font-size: 0.8rem;">导出 CSV</button>
     <button onclick="exportXLSX()" style="padding: 0.05rem 0.6rem; font-size: 0.8rem;">导出 XLSX</button>
     <button onclick="exportODS()" style="padding: 0.05rem 0.6rem; font-size: 0.8rem;">导出 ODS</button>
+    <button onclick="exportMarkdown()" style="padding: 0.05rem 0.6rem; font-size: 0.8rem;">导出 Markdown</button>
   </div>
 
   <script>
@@ -200,6 +201,32 @@
 
         XLSX.writeFile(wb, "reimbursement.xlsx", { bookType: "xlsx" });
     }
+
+    function exportMarkdown() {
+        const rows = [];
+        // 添加表头
+        rows.push('| 日期 | 事项说明 | 金额 (€) | 备注 | 发票文件名 |');
+        rows.push('| --- | --- | --- | --- | --- |');
+
+        document.querySelectorAll('#reimbursementTable tbody tr').forEach(tr => {
+            const inputs = tr.querySelectorAll('input[type="text"], input[type="number"], input[type="date"]');
+            const fileNameInput = tr.querySelector('.file-name-input');
+            const fileName = fileNameInput ? fileNameInput.value : '';
+            const fileCell = fileName ? `![image](img/${fileName})` : '';
+            rows.push(`| ${inputs[0].value} | ${inputs[1].value} | ${inputs[2].value} | ${inputs[3].value} | ${fileCell} |`);
+        });
+
+        const markdownContent = rows.join('\n');
+        const blob = new Blob([markdownContent], { type: 'text/markdown;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'reimbursement.md';
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+
 
     function handleFileSelect(input) {
         const file = input.files[0];
