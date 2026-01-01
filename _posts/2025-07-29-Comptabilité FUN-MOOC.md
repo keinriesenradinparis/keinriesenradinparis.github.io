@@ -5,7 +5,7 @@ date: 2025-07-29
 
 # Comptabilité FUN-MOOC
 
-> [!summary]
+> [!NOTE] Summary
 > Ce sont des notes rassemblées de cours sur FUN-MOOC.
 
 ## UMontpellier - Comptabilité de gestion et pratique du tableur

@@ -5,7 +5,7 @@ date: 2025-07-29
 
 # Notes on DeFi from Finematics
 
-> [!summary]
+> [!NOTE] Summary
 > The website [Finematics](https://finematics.com/guide-to-decentralized-finance/) gives a gentle (but slightly technical) introduction to the DeFi system, principally discussing around Ethereum.
 
 > [!tip]
