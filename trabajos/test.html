@@ -1,19 +1,150 @@
----
-title: 巴黎拍摄点
-date: 2025-08-04
-last_modified_at: 2025-08-04
----
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML 中嵌入并渲染 Markdown 示例</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+    }
+    pre {
+      background: #f6f8fa;
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: monospace;
+    }
+    h1, h2, h3 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.3rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
 
-> [!NOTE]
+    /* Callout 样式 */
+    .callout {
+      display: flex;
+      border-left: 4px solid #1e90ff;
+      background: #e6f0ff;
+      padding: 10px 15px;
+      border-radius: 4px;
+      margin: 10px 0;
+    }
+    .callout-icon {
+      font-size: 20px;
+      margin-right: 10px;
+      line-height: 1;
+      user-select: none;
+    }
+    .callout-content {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Markdown 渲染区域</h2>
+<div id="markdown-container"></div>
+
+<h2>Markdown 原始代码显示区域</h2>
+<pre><code id="markdown-source"></code></pre>
+
+<script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
+<script>
+    // 自定义规则，将类似 Obsidian 的 callout 转成带样式的 HTML
+  // 简单示范，处理 > [!note] 形式的 callout
+
+  function renderCallout(mdText) {
+    const lines = mdText.split('\n');
+    let inCallout = false;
+    let calloutType = '';
+    let contentLines = [];
+
+    const resultLines = [];
+
+    lines.forEach(line => {
+      const calloutStart = line.match(/^>\s*\[!(\w+)\]/);
+      const blockquoteLine = line.match(/^>\s?(.*)/);
+
+      if (calloutStart) {
+        inCallout = true;
+        calloutType = calloutStart[1].toLowerCase();
+        contentLines = [];
+        const content = line.replace(/^>\s*\[!\w+\]\s*/, '');
+        if (content) contentLines.push(content);
+      } else if (inCallout && blockquoteLine) {
+        contentLines.push(blockquoteLine[1]);
+      } else {
+        if (inCallout) {
+          // 输出 callout html
+          resultLines.push(renderCalloutHTML(calloutType, contentLines.join('\n')));
+          inCallout = false;
+          calloutType = '';
+          contentLines = [];
+        }
+        resultLines.push(line);
+      }
+    });
+
+    if (inCallout) {
+      resultLines.push(renderCalloutHTML(calloutType, contentLines.join('\n')));
+    }
+
+    return md.render(resultLines.join('\n'));
+  }
+
+  function renderCalloutHTML(type, content) {
+    const icons = {
+      note: '💡',
+      warning: '⚠️',
+      tip: '👍',
+      important: '❗',
+    };
+    const icon = icons[type] || 'ℹ️';
+    const innerHTML = md.render(content);
+    return `<div class="callout ${type}">
+      <div class="callout-icon">${icon}</div>
+      <div class="callout-content">${innerHTML}</div>
+    </div>`;
+  }
+
+
+  // 示例 Markdown 内容
+  const markdownText = `
+# 这是一级标题
+
+这是段落文字，可以写**加粗**、*斜体*，还可以有[链接](https://github.com)。
+
+## 这是二级标题
+
+- 列表项一
+- 列表项二
+- 列表项三
+
+> 这是引用块，可以用来做提示。
+
+\`\`\`js
+// 这是代码块示例
+console.log("Hello, Markdown!");
+\`\`\`
+
+> [!NOTE] Summary 
 > 小小收集一些巴黎拍摄点
 
 ## Fluctuat nec mergitur 徽标地点
 
-> [!NOTE]
+> [!note]
 > Fluctuat nec mergitur “浪击而不沉”
 > 是巴黎城市铭言，是巴黎市徽的组成部分之一。
 
-> [!TIP]
+> [!tip]
 > 巴黎市徽通常出现在以下地方：mairie, gendarmerie, garde nationale, collège, lycée, école.
 
 1. M7 Censier-Daubenton 地铁口中学外墙上方
@@ -94,41 +225,25 @@ last_modified_at: 2025-08-04
 	:::spoiler 点击查看谷歌地图
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230.02584995663267!2d2.309479887129206!3d48.865034710991594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e31abda26ef%3A0x8742c8ed4d4d56a1!2sBordier%20%26%20Cie%20(France)%20S.A.!5e0!3m2!1sen!2sfr!4v1754331095726!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	:::
+`;
 
-### 室内长廊
+  // 显示原始 Markdown 代码（转义 HTML）
+  const escapeHtml = (str) => str.replace(/&/g, "&amp;")
+                                .replace(/</g, "&lt;")
+                                .replace(/>/g, "&gt;");
 
-- Gal Véro-Dodat
-	地址：Gal Véro-Dodat, 75001 Paris
-	:::spoiler 点击查看谷歌地图
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d538.9636120557436!2d2.340075465700376!3d48.862975725011026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e239247ebdf%3A0xe5cb1ade5741f53a!2sGal%20V%C3%A9ro-Dodat%2C%2075001%20Paris!5e0!3m2!1sen!2sfr!4v1754330978818!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	:::
-- Galerie Vivienne
-	地址：4 Rue des Petits Champs, 75002 Paris
-	:::spoiler 点击查看谷歌地图
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d942.4161017780862!2d2.3380826850448737!3d48.86637858877178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e24abc808bb%3A0x29519e71cc82813f!2sGalerie%20Vivienne!5e0!3m2!1sen!2sfr!4v1754331017922!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	:::
+  document.getElementById('markdown-source').innerHTML = escapeHtml(markdownText);
+  
+  // 初始化 markdown-it
+  const md = window.markdownit();
+  
+  // 渲染 Markdown 为 HTML
+  const renderedHTML = md.render(markdownText);
 
-### 建筑外立面
+  // 插入渲染后的 HTML
+  document.getElementById('markdown-container').innerHTML = renderedHTML;
+  
+</script>
 
-- 路口一家小店作前景
-	地址：42 Rue d'Argout, 75002 Paris
-	:::spoiler 点击查看谷歌地图
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.5962150325417!2d2.343432416167769!3d48.8659096844967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e22c8f2352f%3A0xc161603b5e667aca!2s42%20Rue%20d&#39;Argout%2C%2075002%20Paris!5e0!3m2!1sen!2sfr!4v1754330894037!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	:::
-- Havre-Caumartin 地铁站出来
-	地址：64 Bd Haussmann, 75009 Paris
-	拍摄朝向：18 Rue Auber, 75009 Paris
-	:::spoiler 点击查看谷歌地图
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164.01175251057498!2d2.327064894017594!3d48.87369176591567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f232d667311%3A0x912979d5c7305a35!2sLEMAIRE%20%7C%20Printemps%20Haussmann%20Femme!5e0!3m2!1sen!2sfr!4v1754331394127!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	:::
-
-### 街道
-
-- 玛德莲娜教堂附近
-	地址：45 Rue Boissy d'Anglas, 75008 Paris
-	拍摄朝向：Rue de Surène, , 75008 Paris
-	:::spoiler 点击查看谷歌地图
-	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d328.04513103343095!2d2.322690154050915!3d48.87039338273548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sfr!4v1754331870538!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	:::
-
-
+</body>
+</html>
