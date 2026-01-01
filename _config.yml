@@ -78,7 +78,8 @@ permalink: /:year-:month-:day-:title:output_ext
 #   disable: true
   
   
-# plugins:
+plugins:
+  - jekyll-gfm-admonitions
 # - jekyll-toc
 # # TOC Settings
 # toc:
