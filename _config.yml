@@ -80,7 +80,7 @@ permalink: /:year-:month-:day-:title:output_ext
   
   
 plugins:
-  # - jekyll-gfm-admonitions
+  - jekyll-gfm-admonitions
 # - jekyll-toc
 # # TOC Settings
 # toc:
