@@ -8,14 +8,10 @@ layout: page_light
 
 <!-- # Notes on DeFi from Finematics -->
 
-:::TIP
-asd
-:::
-
-> [!summary]
+> [!NOTE] Summary
 > The website [Finematics](https://finematics.com/guide-to-decentralized-finance/) gives a gentle (but slightly technical) introduction to the DeFi system, principally discussing around Ethereum.
 
-> [!tip]
+> [!TIP]
 > The real technical part is the development of smart contracts.
 > A friendly introduction is given by [Solidity by examples](https://solidity-by-example.org/).
 

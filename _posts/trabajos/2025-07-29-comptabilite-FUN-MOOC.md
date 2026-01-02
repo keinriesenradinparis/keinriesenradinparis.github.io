@@ -8,7 +8,7 @@ layout: page_light
 
 # Comptabilité FUN-MOOC
 
-> [!summary]
+> [!NOTE] Summary
 > Ce sont des notes rassemblées de cours sur FUN-MOOC.
 
 ## UMontpellier - Comptabilité de gestion et pratique du tableur
