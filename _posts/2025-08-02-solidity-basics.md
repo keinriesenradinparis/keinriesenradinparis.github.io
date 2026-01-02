@@ -8,7 +8,7 @@ last_modified_at: 2025-10-18
 
 ## Hack Solidity
 
-> [!NOTE] 
+> [!note] 
 > 这篇笔记跟着 Youtube 视频学习 [Solidity by examples](https://solidity-by-example.org/) 网站上一些基本的合约攻击（安全漏洞、防范方法）。
 
 Source:

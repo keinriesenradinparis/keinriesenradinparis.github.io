@@ -4,7 +4,7 @@ date: 2023-09-27
 last_modified_at: 2024-04-17
 ---
 
-> [!NOTE] Summary 
+> [!summary]
 > M2 courses at Panthéon-Sorbonne, cursus Arts plastiques.
 ### 27 septembre 2023 - Eric Alliez, philosophe à Paris 8/LLCP
 
