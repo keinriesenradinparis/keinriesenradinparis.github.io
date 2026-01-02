@@ -59,6 +59,9 @@
       padding: 1rem;         /* 手机端留边距 */
       box-sizing: border-box;
     }
+    pre, code {
+      background-color: rgba(127, 127, 127, 0.1);
+    }
   </style>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
@@ -97,6 +100,21 @@
     </blockquote>
 
     <a href="/trabajos/baoxiao.html">报销表模板</a>
+
+    <pre class="highlight"><code><span class="c">%%%</span>
+      <span class="c">%%% MD5 number</span>
+      <span class="c">%%%</span>
+      
+      <span class="k">\makeatletter</span>
+      <span class="k">\ifx\pdfmdfivesum\undefined</span>
+        <span class="k">\let\pdfmdfivesum\mdfivesum</span>
+      <span class="k">\fi</span>
+      <span class="k">\edef\filesum</span><span class="p">{</span><span class="k">\pdfmdfivesum</span> file <span class="p">{</span><span class="k">\jobname</span><span class="p">}}</span>
+      <span class="k">\makeatother</span>
+      
+      <span class="k">\filesum</span>
+      
+      </code></pre>
     
     <hr>
     
