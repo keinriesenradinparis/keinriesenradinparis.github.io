@@ -28,7 +28,7 @@ url: https://keinriesenradinparis.github.io
 
 
 # Build settings
-# theme: minima
+theme: minima
 # minima:
 #   skin: dark
 # remote_theme: jekyll/minima # Alternative way
