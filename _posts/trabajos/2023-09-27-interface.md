@@ -2,10 +2,14 @@
 title: Interface (Shuyue M2)
 date: 2023-09-27
 last_modified_at: 2024-04-17
+categories: 
+  - "trabajos"
+layout: page_light
 ---
 
 > [!summary]
 > M2 courses at Panthéon-Sorbonne, cursus Arts plastiques.
+
 ### 27 septembre 2023 - Eric Alliez, philosophe à Paris 8/LLCP
 
 Duchamps _Queer_. Ou la machine désirante du champs du signe.

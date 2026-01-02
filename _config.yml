@@ -71,7 +71,7 @@ include:
  
 # Post permalink
 # permalink: /:year/:month/:day/:title:output_ext
-permalink: /:year-:month-:day-:title:output_ext
+permalink: /posts/:year-:month-:day-:title:output_ext
 
 
 

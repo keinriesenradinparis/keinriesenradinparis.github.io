@@ -26,7 +26,7 @@ if_print_post_list: false
 
 ### 报名（课程暂停）
 
-第八期[报名信息页](/2023-09-22-法语报名.html)
+第八期[报名信息页](/posts/2023-09-22-法语报名.html)
 
 <h2 align="center">
 * &nbsp; * &nbsp; *
@@ -36,7 +36,7 @@ if_print_post_list: false
 
 **课前要求：**
 - 语音：需要了解常用字母组合的发音，见下方👇的[零基础](#零基础)部分。
-- 动词：需要了解 être, avoir, faire, aller 以及其他所有 -er 规则动词的变位，见[此页面](/2022-12-17-法语简单动词变位.html)。
+- 动词：需要了解 être, avoir, faire, aller 以及其他所有 -er 规则动词的变位，见[此页面](/posts/2022-12-17-法语简单动词变位.html)。
 
 **讲义和音视频：**  
 - [01.pdf](/assets/doc/NdCS7/01.pdf), 
@@ -75,15 +75,15 @@ if_print_post_list: false
   - 语法：复合过去时（[vidéo](https://youtube.com/playlist?list=PLTqYSrQbW-6vizJZJXbWhYRO63JrxKo_Z "Le 🇫🇷FLE A1 conjugaison passé composé")）
 - 第十四课：C'est remboursable ?  
 
-**语法点总结**：见[此页面](/2023-06-04-法语基本语法-2.html)
+**语法点总结**：见[此页面](/posts/2023-06-04-法语基本语法-2.html)
 
 <!-- {% assign posts = site.tags["启蒙20"] %} -->
 <!-- {% include print_posts_simple.html content=posts %} -->
 
 **拓展：法国歌曲：**
-- [法国国歌 La Marseillaise 《马赛曲》](/2023-04-02-marseillaise.html)  
-- [Claude François - Comme d'habitude](/2023-04-07-comme-d-habitude.html)
-- [Édith Piaf - Hymne à l'amour 《爱的礼赞》](/2023-04-08-hymne-a-l-amour.html)
+- [法国国歌 La Marseillaise 《马赛曲》](/posts/2023-04-02-marseillaise.html)  
+- [Claude François - Comme d'habitude](/posts/2023-04-07-comme-d-habitude.html)
+- [Édith Piaf - Hymne à l'amour 《爱的礼赞》](/posts/2023-04-08-hymne-a-l-amour.html)
 
 <h2 align="center">
 * &nbsp; * &nbsp; *
@@ -126,11 +126,11 @@ if_print_post_list: false
 - y 相当于一个 i 或者 i+i
 
 **知识点总结：**
-- [语音练习](/2022-09-30-法语语音练习.html)
-- [基本自我介绍](/2022-12-15-法语基本自我介绍.html)
-- [基本会话](/2022-12-16-法语基本会话.html)
-- [简单动词变位](/2022-12-17-法语简单动词变位.html)
-- [基本语法](/2022-12-18-法语基本语法.html)
+- [语音练习](/posts/2022-09-30-法语语音练习.html)
+- [基本自我介绍](/posts/2022-12-15-法语基本自我介绍.html)
+- [基本会话](/posts/2022-12-16-法语基本会话.html)
+- [简单动词变位](/posts/2022-12-17-法语简单动词变位.html)
+- [基本语法](/posts/2022-12-18-法语基本语法.html)
 
 <!-- {% assign posts = site.posts | where:"tags", "零基础" %} -->
 <!-- {% include print_posts_simple.html content=posts %} -->

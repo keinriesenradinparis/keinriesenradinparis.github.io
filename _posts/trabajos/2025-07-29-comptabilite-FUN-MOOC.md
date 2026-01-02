@@ -1,6 +1,9 @@
 ---
 title: Comptabilité FUN-MOOC
 date: 2025-07-29
+categories: 
+  - "trabajos"
+layout: page_light
 ---
 
 # Comptabilité FUN-MOOC
