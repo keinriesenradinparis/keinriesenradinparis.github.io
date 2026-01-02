@@ -4,7 +4,7 @@ date: 2025-08-02
 last_modified_at: 2025-10-18
 categories: 
   - "web"
-layout: page_light
+# layout: page_light
 ---
 
 <!-- # Solidity Basics -->

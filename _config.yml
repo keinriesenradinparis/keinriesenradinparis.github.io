@@ -47,6 +47,15 @@ defaults:
     values:
       layout: page
       permalink: /:basename:output_ext
+  - scope:
+      path: "_posts/web"
+    values:
+      layout: page_light
+  - scope:
+      path: "_posts/trabajos"
+    values:
+      layout: page_light
+      permalink: /trabajos/:title:output_ext
 #   - scope:
 #       path: "test2.md"
 #     values:
@@ -61,7 +70,7 @@ header_pages:
 - about.md
 
 include:
-- /_pages
+- _pages
   
 # Ignore stuff
 # exclude:
@@ -91,4 +100,4 @@ plugins:
 #  list_class: toc__list
 #  sublist_class: toc__sublist
 
-repository: keinriesenradinparis.github.io
+repository: keinriesenradinparis/keinriesenradinparis.github.io

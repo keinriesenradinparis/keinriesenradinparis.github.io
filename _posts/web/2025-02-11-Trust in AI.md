@@ -3,7 +3,7 @@ title: Conference Trust in AI
 date: 2025-02-11
 categories: 
   - "web"
-layout: page_light
+# layout: page_light
 ---
 
 Program: https://www.aifc.ngo/schedule

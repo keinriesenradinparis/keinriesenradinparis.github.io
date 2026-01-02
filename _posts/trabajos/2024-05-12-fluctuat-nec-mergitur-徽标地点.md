@@ -4,7 +4,7 @@ date: 2024-05-12
 last_modified_at: 2025-08-24
 categories: 
   - "trabajos"
-layout: page_light
+# layout: page_light
 ---
 
 Fluctuat nec mergitur 徽标通常出现在以下地方：mairie, gendarmerie, garde nationale, collège, lycée, école。

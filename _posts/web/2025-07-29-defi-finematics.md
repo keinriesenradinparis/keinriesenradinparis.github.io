@@ -3,7 +3,7 @@ title: Notes on DeFi from Finematics
 date: 2025-07-29
 categories: 
   - "web"
-layout: page_light
+# layout: page_light
 ---
 
 <!-- # Notes on DeFi from Finematics -->
