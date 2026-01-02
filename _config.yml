@@ -53,7 +53,7 @@ defaults:
   - scope:
       path: "_posts/trabajos"
     values:
-      layout: page_light
+      layout: page_trabajos
       permalink: /trabajos/:title:output_ext
 #   - scope:
 #       path: "test2.md"
