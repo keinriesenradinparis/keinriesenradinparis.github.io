@@ -10,7 +10,6 @@ kramdown:
   parse_block_html: true
   parse_inline_html: true
   toc_levels: 2..3
-  # input: GFM
 
 # URL VARIABLES [optional!]
 #
@@ -63,7 +62,7 @@ defaults:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-header_pages:
+header_pages: # Version: https://github.com/jekyll/minima/blob/v2.5.0/README.md
 - _pages/web.md
 - _pages/languages.md
 - _pages/basicfrenchsummary.md
