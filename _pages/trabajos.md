@@ -13,12 +13,12 @@ layout: page_trabajos
 
 巴黎拍摄：
 - [Fluctuat nec mergitur 徽标地点](/trabajos/fluctuat-nec-mergitur-徽标地点.html)
-- [巴黎拍摄点](/_posts/trabajos/巴黎拍摄点.html)
-- [巴黎馆子](/_posts/trabajos/巴黎馆子.html)
+- [巴黎拍摄点](/trabajos/巴黎拍摄点.html)
+- [巴黎馆子](/trabajos/巴黎馆子.html)
 
 Technicalities:
 - [报销表模板](trabajos/baoxiao.html)
-- [Comptabilité](/_posts/trabajos/comptabilite-FUN-MOOC.html)
-- [latex-md5](/_posts/trabajos/latex-md5.html)
+- [Comptabilité](/trabajos/comptabilite-FUN-MOOC.html)
+- [latex-md5](/trabajos/latex-md5.html)
 
 
