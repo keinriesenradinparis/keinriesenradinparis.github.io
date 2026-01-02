@@ -20,7 +20,8 @@
                 --heading-color: #5A7DB8;         /* 标题，比正文深 */
                 --link-color: #d6d6e0cf;        /* 奶色调淡蓝灰 */
                 --link-hover-color: #CFCFD9;  /* 更亮的奶色调 */
-                --code-color: #2D2D30; /* 代码块颜色 */
+                --code-color: #EFEAD2; /* 代码块文字颜色 */
+                --code-block-color: #2D2D30; /* 代码块背景颜色 */
             }
             body {
                 background-color: var(--bg-color) !important;
@@ -36,14 +37,15 @@
                 color: var(--link-hover-color) !important;
             }
             blockquote {
-                background: var(--code-color) !important;
+                background: var(--code-block-color) !important;
                 border-left: 4px solid var(--text-color);
                 padding-left: calc(var(--spacing-unit)/2);
                 font-style: italic;
             }
             pre, code {
-                background-color: var(--code-color) !important;
-                border-color: var(--code-color) !important;
+                background-color: var(--code-block-color) !important;
+                border-color: var(--code-block-color) !important;
+                color: var(--code-color) !important;
             }
         </style>
         <title>{{ page.title }}</title>
