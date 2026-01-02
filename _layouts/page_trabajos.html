@@ -22,22 +22,20 @@
                 --link-hover-color: #CFCFD9;  /* 更亮的奶色调 */
             }
             body {
-                font:var(--base-font-weight) var(--base-font-size)/var(--base-line-height) "Times New Roman";
-                background-color: var(--bg-color);
-                color: var(--text-color); 
+                background-color: var(--bg-color) !important;
+                color: var(--text-color) !important; 
             }
             h1,h2,h3,h4,h5,h6,b {
-                color: var(--heading-color);
+                color: var(--heading-color) !important;
             }
             a {
-                color: var(--link-color);
+                color: var(--link-color) !important;
             }
             a:hover, a:focus {
-                color: var(--link-hover-color);
+                color: var(--link-hover-color) !important;
             }
             blockquote {
-                background: rgba(127, 127, 127, 0.1);
-                /* border-left: 4px solid rgba(0, 122, 204, 0.5); */
+                background: rgba(127, 127, 127, 0.1) !important;
                 border-left: 4px solid var(--text-color);
                 padding-left: calc(var(--spacing-unit)/2);
                 font-style: italic;

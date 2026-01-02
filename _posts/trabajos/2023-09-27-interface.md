@@ -1,9 +1,10 @@
 ---
-title: Interface (Shuyue M2)
+title: Interface
 date: 2023-09-27
 last_modified_at: 2024-04-17
 categories: 
   - "trabajos"
+  - "shuyue-M2"
 # layout: page_light
 ---
 

@@ -1,13 +1,14 @@
 ---
-title: Séminaire d'Alain Milon (Shuyue M2)
+title: Séminaire d'Alain Milon
 date: 2024-03-06
 last_modified_at: 2024-03-20
 categories: 
   - "trabajos"
+  - "shuyue-M2"
 # layout: page_light
 ---
 
-FORMAT: `### DATE` plus your content
+<!-- FORMAT: `### DATE` plus your content -->
 
 ## Séminaire en ligne - La honte
 
