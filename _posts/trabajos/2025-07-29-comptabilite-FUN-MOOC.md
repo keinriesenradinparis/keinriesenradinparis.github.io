@@ -123,7 +123,7 @@ Problème :
 
 Coûts partiels:
 - Méthode du coût variable, qui permettra de calculer le seuil de rentabilité (par des équations, par optimisation, etc.).
-- CA : $y = a x$.
+- CA : $`y = a x`$.
 - CV: $y = b x$.
 - CF: $y = c$.
 - SR: les données correspondantes au point d'intersection de CV et CF.
