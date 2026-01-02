@@ -81,7 +81,7 @@ permalink: /posts/:year-:month-:day-:title:output_ext
   
   
 plugins:
-  - jekyll-gfm-admonitions
+  - jekyll-gfm-admonitions # Require Gemfile configuration
 # - jekyll-toc
 # # TOC Settings
 # toc:
