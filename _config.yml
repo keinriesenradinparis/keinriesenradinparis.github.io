@@ -55,6 +55,7 @@ defaults:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
+- _pages/web.md
 - _pages/languages.md
 - _pages/basicfrenchsummary.md
 - about.md
