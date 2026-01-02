@@ -9,7 +9,7 @@ date: 2025-07-29
 > [!summary]
 > The website [Finematics](https://finematics.com/guide-to-decentralized-finance/) gives a gentle (but slightly technical) introduction to the DeFi system, principally discussing around Ethereum.
 
-> [!TIP]
+> [!tip]
 > The real technical part is the development of smart contracts.
 > A friendly introduction is given by [Solidity by examples](https://solidity-by-example.org/).
 
