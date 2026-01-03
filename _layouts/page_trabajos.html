@@ -14,7 +14,7 @@
         <style>
             :root {
                 --bg-color: #1E1E1E;       /* 微软深色背景 */
-                --heading-color: #8FAEFF; /* 稍暗蓝灰 */
+                --heading-color: #569CD6;  /* 偏钢蓝的矢车菊蓝）*/
                 --text-color: #d6d6e0cf;        /* 奶色调淡蓝灰 */
                 --quote-color: #d6d6e06f;        /* 奶色调淡蓝灰+透明度 */
                 /* --text-color: #A8C7FF;  /* 主文字，带蓝调的淡灰蓝 */
@@ -25,6 +25,7 @@
                 /* --link-hover-color: #CFCFD9;  /* 更亮的奶色调 */
                 --link-color: #CE9178cf;        /* 橘黄色+透明度 */
                 --link-hover-color: #CE9178;  /* 橘黄色 */
+                --alert-color: #A8C7FF;  /* 带蓝调的淡灰蓝 */
                 --code-color: #EFEAD2; /* 代码块文字颜色 */
                 --code-block-color: #313139; /* 代码块背景颜色 */
                 --code-block-color-darker: #2D2D30; /* 代码块背景颜色 */
@@ -60,6 +61,11 @@
                 /* padding: 0.5rem; */
                 background: var(--code-block-color-darker) !important;
                 /* background: #994499; /* Another choice of color */
+            }
+
+            .markdown-alert {
+                /* to use with `jekyll-gfm-admonitions` plugin */
+                color: var(--alert-color) !important;
             }
 
             table {
