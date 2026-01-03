@@ -17,11 +17,12 @@
                 --text-color: #A8C7FF;  /* 主文字，带蓝调的淡灰蓝 */
                 --text-color-secondary: #8FAEFF; /* 次要文字，稍暗蓝灰 */
                 --text-color-muted: #5A7DB8;    /* 较弱信息，深蓝灰 */
-                --heading-color: #5A7DB8;         /* 标题，比正文深 */
+                --heading-color: #C6D2F2;         /* 标题，比正文深 */
                 --link-color: #d6d6e0cf;        /* 奶色调淡蓝灰 */
                 --link-hover-color: #CFCFD9;  /* 更亮的奶色调 */
                 --code-color: #EFEAD2; /* 代码块文字颜色 */
-                --code-block-color: #2D2D30; /* 代码块背景颜色 */
+                --code-block-color: #313139; /* 代码块背景颜色 */
+                --code-block-color-darker: #2D2D30; /* 代码块背景颜色 */
             }
             body {
                 background-color: var(--bg-color) !important;
@@ -46,6 +47,31 @@
                 background-color: var(--code-block-color) !important;
                 border-color: var(--code-block-color) !important;
                 color: var(--code-color) !important;
+            }
+            .highlight {
+                /* background: #994499; */
+                background: var(--code-block-color-darker) !important;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                background-color: var(--code-block-color) !important;
+                color: var(--text-color) !important;;
+            }
+
+            th, td {
+                padding: 0.6em 0.8em;
+                border: 1px solid #4A5873 !important;;
+            }
+
+            th {
+                background-color: #213c42 !important;
+                color: var(--heading-color) !important;
+                font-weight: 600;
+            }
+
+            tr:nth-child(even) td {
+                background-color: var(--code-block-color-darker) !important;
             }
         </style>
         <title>{{ page.title }}</title>
