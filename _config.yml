@@ -91,6 +91,7 @@ permalink: /posts/:year-:month-:day-:title:output_ext
   
 plugins:
   - jekyll-gfm-admonitions # Require Gemfile configuration
+  - remark-mark-plus # for `==text==` highlight
 # - jekyll-toc
 # # TOC Settings
 # toc:
