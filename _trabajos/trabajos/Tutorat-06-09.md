@@ -195,10 +195,11 @@ Il y a $5$ personnes qui s'assoient autour d'une table ronde.
 1. Il y a combien de façons ?
 2. Si seulement l'ordre compte, alors il y a combien de façons ?
 
-%%
+<!-- 
 $5!$
 $5!/5$
-%%
+-->
+
 
 **Exercice 2**
 
@@ -206,18 +207,18 @@ Il y a $26$ petites pièces en lettres, à en choisir $6$ pour former un bracele
 - On peut former combien de bracelets ? (Cela correspond à la deuxième question précédente.)
 - Si les lettres A et B ne peuvent pas être mis côte à côte, alors combien de bracelets peut-on former ?
 
-%%
+<!-- 
 $26 \times 25 \times 24 \times 23 \times 22 \times 21 / 6$
 $26 \times 25 \times 24 \times 23 \times 22 \times 21 / 6 - 2 \times 24 \times 23 \times 22 \times 21$
-%%
+--> 
 
 **Exercice 3 (AMC 8)**
 
 Une boîte contient cinq cartes numérotées 1, 2, 3, 4 et 5. On tire au hasard trois cartes sans remise. Quelle est la probabilité que 4 soit la plus grande valeur parmi les cartes tirées ?
 
-%%
+<!-- 
 $\frac{3}{10}$
-%%
+--> 
 
 **Exercice 4 (AMC 8-2018-Q11)**
 
@@ -229,15 +230,15 @@ Alice, Bob et 4 amis s'assoient sur les 6 sièges dans la disposition suivante :
 
 Quelle la chance où Alice et Bob sont dans le même rang ou dans le même colonne ?
 
-%%
+<!-- 
 $\frac{6 \times 3 \times 4!}{6!} = \frac{18}{30} = \frac{3}{5}$
-%%
+--> 
 
 Et adjacent ?
 
-%%
+<!-- 
 $\frac{2 \times 7 \times 4!}{6!}$
-%%
+--> 
 
 **Exercice 5**
 
@@ -245,7 +246,7 @@ On lance un dé équilibré à 6 faces deux fois.
 - On calcule leur somme. Quelle est la probabilité de chaque résultat obtenu ?
 - On calcule leur différence. Quelle est la probabilité de chaque résultat obtenu ?
 
-%%
+<!-- 
 | Somme | Proba (/36) |
 | ----- | ----------- |
 | 2     | 1           |
@@ -268,7 +269,7 @@ On lance un dé équilibré à 6 faces deux fois.
 | 3    | 6           |
 | 4    | 4           |
 | 5    | 2           |
-%%
+--> 
 
 
 

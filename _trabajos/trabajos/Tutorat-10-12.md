@@ -34,17 +34,17 @@ Combien de façons peut-on arranger les lettres du mot BEEKEEPER de sorte que de
 
 Peter, Emma et Kyler ont joué aux échecs entre eux. Peter a gagné 4 parties et en a perdu 2. Emma a gagné 3 parties et en a perdu 3. Si Kyler a perdu 3 parties, combien de parties a-t-il gagnées ?
 
-%%
+<!-- 
 $1$
-%%
+--> 
 
 **Exercice 7 (AMC 8-2008)** 
 
 Il y a combien de $n$ tel que $n/3$ et $3n$ soient tous les deux à trois chiffres ?
 
-%%
+<!-- 
 $100 \times 3, \dots, 111 \times 3$
-%%
+--> 
 
 ### ...sur la probabilité
 
@@ -57,7 +57,7 @@ $100 \times 3, \dots, 111 \times 3$
 > $$
 > Ce rapport reflète aussi **la chance ou la probabilité de réussite** pour chaque chaussure individuelle, si on en choisit une **au hasard**.
 >
-> %%Idéalement, ce n'est pas la peine de faire passer toutes les chaussures pour connaître ce rapport. Par exemple, on peut choisir au hasard 1,000 chaussures pour tester. Si 30 chaussures passent le test, alors on peut dire que la probabilité de réussite est environ $3\%$. C'est la méthode d'**échantillonnage**.%%
+> <!-- Idéalement, ce n'est pas la peine de faire passer toutes les chaussures pour connaître ce rapport. Par exemple, on peut choisir au hasard 1,000 chaussures pour tester. Si 30 chaussures passent le test, alors on peut dire que la probabilité de réussite est environ $3\%$. C'est la méthode d'**échantillonnage**.--> 
 
 **Exercice 8 (AMC 8-2018)**
 
@@ -66,10 +66,10 @@ Sur une plage, 50 personnes portent des lunettes de soleil et 35 personnes porte
 1. Si, au contraire, une personne portant des lunettes de soleil est choisie au hasard, quelle est la probabilité que cette personne porte également une casquette ?
 2. S'il y a au total 100 personnes sur la plage, quelle est la probabilité qu'une personne choisie au hasard ne porte ni lunettes de soleil ni casquette ?
 
-%%
+<!-- 
 $14/50$
 $29/100$
-%%
+--> 
 
 > [!note]
 > Dessine le **diagramme de Venn**.
@@ -78,9 +78,9 @@ $29/100$
 
 On choisit au hasard deux nombres différents dans l'ensemble $\{-2, -1, 0, 3, 4, 5\}$ et on les multiplie. Quelle est la probabilité que le produit soit égal à 0 ?
 
-%%
+<!-- 
 $1/3$
-%%
+--> 
 
 ---
 
@@ -179,9 +179,9 @@ Quel numéro porte Caitlin ?
 
 Les nombres à 7 chiffres $74A52B1$ et $326AB4C$ sont chacun multiples de 3. Quelle(s) valeur(s) de $C$ pourraient convenir ?
 
-%%
+<!-- 
 1
-%%
+--> 
 
 **Exercice 5 (AMC 8-2016)**
 
@@ -189,17 +189,17 @@ Les chiffres 1, 2, 3, 4 et 5 sont chacun utilisés une seule fois pour former un
 Le nombre à trois chiffres $PQR$ est divisible par 4, le nombre à trois chiffres $QRS$ est divisible par 5, et le nombre à trois chiffres $RST$ est divisible par 3.  
 Quelle est la valeur de $P$ ?
 
-%%
+<!-- 
 $PQRST = 12453$
-%%
+--> 
 
 **Exercice 6 (AMC 8-2018)**
 
 Le nombre à 5 chiffres $2018U$ est divisible par 9. Quel est le reste de la division de ce nombre par 8 ?
 
-%%
+<!-- 
 $U=7$, donc le reste modulo $8$ vaut $3$.
-%%
+--> 
 
 ### Factorisation en facteurs premiers
 
@@ -229,43 +229,43 @@ Que vaut la somme des facteurs premiers de $2010$ ?
 
 $23232$ admet combien de facteurs (positifs) ?
 
-%%
+<!-- 
 On a $23232=2^6 \times 3 \times 11^2$, donc il a $7 \times 2 \times 3 = 42$ facteurs.
-%%
+--> 
 
 **Exercice 9 (AMC 8-2018)**
 
 Soit $N$ le plus grand nombre à cinq chiffres dont le produit des chiffres est égal à 120.  
 Quelle est la somme des chiffres de $N$ ?
 
-%%
+<!-- 
 $120 = 2^3 \times 3 \times 5$, donc seulement $2, 3, 4, 5, 6, 8$ peuvent apparaître. Mais il n'y a que cinq facteurs premiers (avec multiplicités).
 On a donc $N = 85311$, dont la somme des chiffres fait $18$.
-%%
+--> 
 
 **Exercice 10 (AMC 8-2003)**
 
 Lequel parmi $55, 57, 58, 59, 61$ possède le plus petit facteur premier ?
 
-%% 
+<!--  
 $58$, car $2$ en est un facteur premier.
-%%
+--> 
 
 **Exercice 11 (AMC 8-2007)**
 
 Quelle est la somme des deux plus petits facteurs premiers de 250 ?
 
-%%
+<!-- 
 $250 = 2 \times 5^3$, donc la somme fait $2+5 = 7$.
-%%
+--> 
 
 **Exercice 12 (AMC 8-2017)**
 
 Donner un facteur de $ABCABC$.
 
-%% 
+<!--  
 $1001 = 7 \times 11 \times 13$.
-%%
+--> 
 
 ### Puissance
 
@@ -302,26 +302,26 @@ Soit $N$ un nombre à deux chiffres.
 
 Quel est le reste de la division de $N$ par 11 ?
 
-%%
+<!-- 
 Regarder $10, 19, 28, 37, 46, 55, 64, 73, 82, 91$ et $13, 23, 33, 43, 53, 63, 73, 83, 93$.
 Donc $N = 73$, et le reste modulo $11$ fait $7$.
-%%
+--> 
 
 **Exercice 14 (AMC 8-2012)**
 
 Quel est le plus petit $n > 1$ qui a un reste de $1$ lorsqu'il est divisé par $2, 3, 4, 5, 6$.
 
-%%
+<!-- 
 $61 = \mathrm{ppcm}(2, 3, 4, 5, 6) = 60$.
-%%
+--> 
 
 **Exercice 15 (AMC 8-2018)**
 
 Combien de $n > 1$ à trois chiffres sont congruents à $2$ modulo $6$, à $5$ modulo $9$, et à $7$ modulo $11$ ?
 
-%%
+<!-- 
 Ça veut dire congruent à $-4$ modulo $\mathrm{ppcm}(6,9,11)$, donc on a $198n-4$ $\implies$ $5$
-%%
+--> 
 
 ### Trouver le pgcd (et le ppcm)
 
@@ -354,41 +354,41 @@ Calculer :
 
 Quel est le dernier chiffre de $13^{2012}$ ?
 
-%%
+<!-- 
 1
-%%
+--> 
 
 **Exercice 18**
 
 Quel est le dernier chiffre de $2^{1026}$ ?
 
-%%
+<!-- 
 4
-%%
+--> 
 
 **Exercice 19 (AMC 8-2000)**
 
 Quel est le dernier chiffre de $19^{19} + 99^{99}$ ?
 
-%%
+<!-- 
 8
-%%
+--> 
 
 **Exercice 20 (AMC 8-2011)**
 
 Quels sont les derniers deux chiffres de $7^{2011}$ ?
 
-%%
+<!-- 
 43
-%%
+--> 
 
 **Exercice 21 (AMC 8-2007)**
 
 Quels sont les quatres derniers chiffres de $30303030303030303 \times 505050505050505050505$ ?
 
-%%
+<!-- 
 3015
-%%
+--> 
 
 ## Divers
 
@@ -396,77 +396,77 @@ Quels sont les quatres derniers chiffres de $30303030303030303 \times 5050505050
 
 Un nombre à deux chiffre est égal au produit de ces deux chiffres. Quel est le dernier chiffre ?
 
-%%
+<!-- 
 9
-%%
+--> 
 
 **Exercice 23 (AMC 8-2009)**
 
 Les deux entiers $x, y > 0$ sont les nombres minimaux tels que $360 \times x$ soit un carré et que $360 \times y$ soit un cube.  Que vaut la somme $x + y$ ?
 
-%%
+<!-- 
 10 + 75
-%%
+--> 
 
 **Exercice 24 (AMC 8-2006)**
 
 Si $ABA \times CD = CDCD$, alors que vaut $A + B$ ?
 
-%%
+<!-- 
 ABA = 101
-%%
+--> 
 
 **Exercice 25 (AMC 8-2017)**
 
-%%$$\newcommand{\abs}[1]{\left|#1\right|}$$%%
+$$\newcommand{\abs}[1]{\left|#1\right|}$$
 
 La **valeur absolue** $\abs{a}$ d'un nombre $a$ est égale à $a$ si $a$ est positif, et est égale à $-a$ si $a$ est négatif, par exemple : $\abs{25} = \abs{-25} = 25$.
 
 Combien de résultats peut-on obtenir pour $\frac{a}{\abs{a}} + \frac{b}{\abs{b}} + \frac{c}{\abs{c}} + \frac{abc}{\abs{abc}}$ ?
 
-%%
+<!-- 
 0, ±6
-%%
+--> 
 
 **Exercice 25 (AMC 8-2012)** 
 
 Quel est le plus petit $n > 2$ qui a un reste de $2$ lorsqu'il est divisé par $3, 4, 5, 6$.
 
-%%
+<!-- 
 62
-%%
+--> 
 
 **Exercice 26 (AMC 8-2017)** 
 
 Il y a combien de cubes entre $2^8+1$ et $2^{18}+1$ ?
 Indication : $x^{3n} = (x^n)^3$ .
 
-%%
+<!-- 
 $7^3, \dots, 64^3$
-%%
+--> 
 
 **Exercice 27 (AMC 8-2010)** 
 
 Comparer $10^8, 5^{12}, 2^{24}$.
 
-%%
+<!-- 
 $5^{12} > 10^8 > 2^{24}$
-%%
+--> 
 
 **Exercice 28 (AMC 8-2011)** 
 
 $4^5 \times 5^{10}$ est à combien de chiffres ?
 Indication :  $10 = 2 \times 5$.
 
-%%
+<!-- 
 $100^5 = 10000000000$
-%%
+--> 
 
 **Exercice 29 (AMC 8-2000)**
 
 Quel est le dernier chiffre de $13^{17} + 17^{13}$ ?
 
-%%
+<!-- 
 0
-%%
+--> 
 
