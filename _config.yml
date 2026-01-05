@@ -70,13 +70,14 @@ header_pages: # Version: https://github.com/jekyll/minima/blob/v2.5.0/README.md
 
 include:
 - _pages
+- _trabajos
   
 # Ignore stuff
 # exclude:
 # - README.md
 # - _pages/2021-04-27-home.md
 # - test2.md
- 
+
  
 # Post permalink
 # permalink: /:year/:month/:day/:title:output_ext
