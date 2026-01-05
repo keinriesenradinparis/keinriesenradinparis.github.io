@@ -27,4 +27,10 @@ Math and IT:
 - [Notes](trabajos/math-notes.html)
 - [Coding](trabajos/coding.html)
 
+模特：
+- <https://www.immmodels.com/london/male-models/main-board/>
+- <https://www.lizbellagency.com/>
+- <https://nextmanagement.com/london/men>
 
+Books
+- <https://annas-archive.org/>

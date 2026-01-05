@@ -20,3 +20,5 @@ Connectivity in integral $p$-adic Hodge theory:
 Root stacks and Kato-Nakayama spaces:
 - CSST's [paper](https://arxiv.org/pdf/1511.00037)
 
+Modular forms and Elliptic Curves Database:
+- <https://www.lmfdb.org/EllipticCurve/>
