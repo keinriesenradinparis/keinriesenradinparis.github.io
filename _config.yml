@@ -51,7 +51,7 @@ defaults:
     values:
       layout: page_light
   - scope:
-      path: "_posts/trabajos"
+      path: "_trabajos"
     values:
       layout: page_trabajos
       permalink: /trabajos/:title:output_ext

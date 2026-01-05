@@ -6,6 +6,8 @@ categories:
 # layout: page_light
 ---
 
+> [!NOTE] Summary
+> These notes collect some useful math links.
 
 Six-functor formalisms:
 - A gentle introduction: Gallauer's [An introduction to six-functor formalisms](https://arxiv.org/abs/2112.10456).
