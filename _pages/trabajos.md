@@ -5,7 +5,7 @@ page_category: "trabajos"
 layout: page_trabajos
 ---
 
-`Two filmophilos' working space`
+## `Two filmophilos' working space`
 
 > [!NOTE] Summary
 > 工作页面
@@ -23,4 +23,6 @@ Technicalities:
 - [Comptabilité](/trabajos/comptabilite-FUN-MOOC.html)
 - [latex-md5](/trabajos/latex-md5.html)
 
+Math:
+- [Notes](/trabajos/math-notes.html)
 
