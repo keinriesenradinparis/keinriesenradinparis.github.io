@@ -23,6 +23,8 @@ Technicalities:
 - [Comptabilité](trabajos/comptabilite-FUN-MOOC.html)
 - [latex-md5](trabajos/latex-md5.html)
 
-Math:
+Math and IT:
 - [Notes](trabajos/math-notes.html)
+- [Coding](trabajos/coding.html)
+
 

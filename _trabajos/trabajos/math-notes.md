@@ -17,3 +17,6 @@ Connectivity in integral $p$-adic Hodge theory:
 - AMMN's [On the Beilinson fiber square](https://arxiv.org/abs/2003.12541), syntomic complexes are integral modification of étale cohomology.
 - Bhatt-Mathew's [Syntomic complexes and $p$-adic étale Tate twists](https://arxiv.org/abs/2202.04818v2): syntomic complexes is compared with the truncated étale cohomology, the difference lies only in the top degree, where syntomic complexes do not touch the whole symbol filtration but only the integral part (the coherent part, not the log-differential part).
 
+Root stacks and Kato-Nakayama spaces:
+- CSST's [paper](https://arxiv.org/pdf/1511.00037)
+
