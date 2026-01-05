@@ -5,8 +5,6 @@ page_category: "trabajos"
 layout: page_trabajos
 ---
 
-## `Two filmophilos' working space`
-
 > [!NOTE] Summary
 > 工作页面
 

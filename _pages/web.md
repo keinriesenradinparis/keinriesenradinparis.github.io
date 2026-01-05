@@ -5,7 +5,7 @@ page_category: "web"
 ---
 
 > [!NOTE]
-> HAHA
+> web开发新手小白。
 
 ### Latest
 
