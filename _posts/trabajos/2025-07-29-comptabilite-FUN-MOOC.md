@@ -6,7 +6,7 @@ categories:
 # layout: page_light
 ---
 
-# Comptabilité FUN-MOOC
+<!-- # Comptabilité FUN-MOOC -->
 
 > [!NOTE] Summary
 > Ce sont des notes rassemblées de cours sur FUN-MOOC.
