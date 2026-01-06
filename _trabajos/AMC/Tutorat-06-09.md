@@ -98,14 +98,14 @@ Relâche vacances de toussaints.
 
 ### Exercices issus d'ACM 8
 
-| Année | Nº question | Point clé                                                                 |
-| ----- | ----------- | ------------------------------------------------------------------------- |
-| 2020  | 17          | combinaison + factorisation                                               |
-| 2020  | 21          | combinaison (un peu difficile), <br> ou le triangle de Yang Hui / Pascal  |
-| 2020  | 23          | combinaison avec certaines conditions                                     |
+| Année | Nº question | Point clé                                                   |
+| ----- | ----------- | ----------------------------------------------------------- |
+| 2020  | 17          | combinaison + factorisation                                 |
+| 2020  | 21          | combinaison (un peu difficile), ou le triangle de Yang Hui  |
+| 2020  | 23          | combinaison avec certaines conditions                       |
 
 > [!NOTE]
-> Concernant le triangle de Yang Hui (appelé aussi le triangle de Pascal) : c'est une méthode graphique et **inductive** pour compter le nombre de **chemins menant d'un point à un autre point sur un graphe**.
+> Le triangle de Yang Hui (appelé aussi le triangle de Pascal) : c'est une méthode graphique et **inductive** pour compter le nombre de **chemins menant d'un point à un autre point sur un graphe**.
 > 
 > Par exemple, on peut se demander :
 > - Combien de chemins pour aller du bas gauche au haut droite d'un carré $5 \times 5$ tout en évitant une partie de sommets de ce carré ?
