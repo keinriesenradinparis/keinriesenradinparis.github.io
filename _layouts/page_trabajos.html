@@ -95,11 +95,16 @@
             }
 
             /* Try to break inline math formulas */
-            mjx-container {
-                /* max-width: 100%; */
+            /* mjx-container {
+                max-width: 100%;
                 white-space: break-spaces !important;
                 word-wrap: break-word !important;
-                /* display: inline-block; */
+                display: inline-block;
+            } */
+            /* Break inline math formulas */
+            mjx-math {
+                white-space: break-spaces !important;
+                word-wrap: break-word !important;
             }
         </style>
 
