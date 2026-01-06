@@ -3,29 +3,29 @@ title: "Two filmophilos | working space"
 date: "2026-01-01"
 page_category: "trabajos"
 layout: page_trabajos
-permalink: "/trabajos.html"
+permalink: "/trabajos/index.html"
 ---
 
 > [!NOTE] Summary
 > 工作页面
 
 学习：
-- [Interface](trabajos/interface.html)
-- [Séminaire](trabajos/seminaire.md)
+- [Interface](interface.html)
+- [Séminaire](seminaire.md)
 
 巴黎拍摄：
-- [Fluctuat nec mergitur 徽标地点](trabajos/fluctuat-nec-mergitur-徽标地点.html)
-- [巴黎拍摄点](trabajos/巴黎拍摄点.html)
-- [巴黎馆子](trabajos/巴黎馆子.html)
+- [Fluctuat nec mergitur 徽标地点](fluctuat-nec-mergitur-徽标地点.html)
+- [巴黎拍摄点](巴黎拍摄点.html)
+- [巴黎馆子](巴黎馆子.html)
 
 Technicalities:
-- [报销表模板](trabajos/baoxiao.html)
-- [Comptabilité](trabajos/comptabilite-FUN-MOOC.html)
-- [latex-md5](trabajos/latex-md5.html)
+- [报销表模板](baoxiao.html)
+- [Comptabilité](comptabilite-FUN-MOOC.html)
+- [latex-md5](latex-md5.html)
 
 Math and IT:
-- [Notes](trabajos/math-notes.html)
-- [Coding](trabajos/coding.html)
+- [Notes](math-notes.html)
+- [Coding](coding.html)
 
 模特：
 - <https://www.immmodels.com/london/male-models/main-board/>
