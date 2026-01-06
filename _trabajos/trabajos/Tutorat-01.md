@@ -81,7 +81,7 @@ $\textbf{(A)}\ 6.5 \qquad\textbf{(B)}\ 7\qquad\textbf{(C)}\ 7.5\qquad\textbf{(D)
 
 先把数字从小到大排列！
 
-> [!note]
+> [!NOTE]
 > 词汇：
 > - mean = 平均数 = 法语 moyenne
 > - median = 中位数 = 法语 médiane
@@ -103,7 +103,7 @@ $\textbf{(A)}\ \text{equilateral triangle}$ 等边三角形 $\textbf{(B)}\ \text
 
 基础题。
 **注意：长方形只有两条对称轴。**（不是正方形的话，斜对角线不是对称轴。）
-> [!note]
+> [!NOTE]
 > 补充：自己推导一下三角形面积公式（$\frac{1}{2} \times$底$\times$高）和梯形的面积公式（两条底边长的平均值$\times$高）。
 
 #### `Problem 7`
@@ -114,7 +114,7 @@ $\textbf{(A)}\ 6 \qquad\textbf{(B)}\ 10\qquad\textbf{(C)}\ 15\qquad\textbf{(D)}\
 `计数问题。待补充。`
 也可以自己算算。
 
-> [!note]
+> [!NOTE]
 > 方法：先从最大的硬币面额看起。
 
 #### `Problem 8`
@@ -130,7 +130,7 @@ $\textbf{(A)}\ 6 \qquad\textbf{(B)}\ 8\qquad\textbf{(C)}\ 12\qquad\textbf{(D)}\ 
 `列方程。`
 
 或者：
-> [!note] 
+> [!NOTE] 
 > 熟练了之后可以这样口算：
 > 因为是**同方向**行走，所以：
 > - Emily 和 Emerson 靠近到相遇花了 $1/2 \div (12 - 8) = 1/8$ 小时。
@@ -138,10 +138,10 @@ $\textbf{(A)}\ 6 \qquad\textbf{(B)}\ 8\qquad\textbf{(C)}\ 12\qquad\textbf{(D)}\ 
 > - 总共 $1/8 + 1/8 = 1/4$ 小时。
 > - 换算成多少分钟？
 
-> [!question]
+> [!TIP] Question
 > **反方向**行走呢？
 
-> [!question]
+> [!TIP] Question
 单位换算：
 > - $1$ 小时 = 多少分钟？
 > - $0.5$ 小时 = 多少分钟？
@@ -190,7 +190,7 @@ $\textbf{(A)}\ 25 \qquad\textbf{(B)}\ 50 \qquad\textbf{(C)}\ 75 \qquad\textbf{(D
 `比例/百分比问题。`
 `列方程。`
 
-> [!note]
+> [!NOTE]
 > **补充生活知识**：假设 TVA（增值税） 是 HT（不含税价格）的 $20\%$ ，那么商品的含税价格为
 > $$
 > \text{TTC（含税价格）} = \text{HT（不含税价格）} + \text{TVA（增值税）。}
@@ -208,7 +208,7 @@ What is the sum of the `prime factors` of $2010$?
 $2010$ 所有的 facteurs premiers 的 somme 是多少？
 $\textbf{(A)}\ 67 \qquad\textbf{(B)}\ 75\qquad\textbf{(C)}\ 77\qquad\textbf{(D)}\ 201\qquad\textbf{(E)}\ 210$
 
-> [!note]
+> [!NOTE]
 > 方法：学会素因子分解 factorisation en facteurs premiers。
 
 #### ``Problem 15``
@@ -281,7 +281,7 @@ Semicircles $POQ$ and $ROS$ pass through the center of circle $O$. What is the r
 ![|300](attachments/Pasted%20image%2020250906221800.png)
 $\textbf{(A)}\ \frac{\sqrt 2}{4}\qquad\textbf{(B)}\ \frac{1}{2}\qquad\textbf{(C)}\ \frac{2}{\pi}\qquad\textbf{(D)}\ \frac{2}{3}\qquad\textbf{(E)}\ \frac{\sqrt 2}{2}$
 
-> [!note] 
+> [!NOTE] 
 > 两个知识点：
 > -  `圆里的直角有哪些？`
 > - 直角三角形的勾股定理：$a^2 + b^2 = c^2$。
@@ -296,20 +296,20 @@ $\textbf{(E)}\ 10^8<2{}^2{}^4<5{}^1{}^2$
 
 $5^9$ 读作“$5$ puissance $9$”（$5$ 的 $9$ 次方），表示 $9$ 个 $5$ 相乘（即 $5 \times 5 \times 5 \times \cdots \times 5$ 总共 $9$ 个 $5$）。
 
-> [!note]
+> [!NOTE]
 > 方法：找出可以比较的部分。
 
 #### **Problem 25**
 Everyday at school, Jo climbs a flight of $6$ stairs. Jo can take the stairs $1$, $2$, or $3$ at a time. For example, Jo could climb $3$, then $1$, then $2$. In how many ways can Jo climb the stairs?
 $\textbf{(A)}\ 13 \qquad\textbf{(B)}\ 18\qquad\textbf{(C)}\ 20\qquad\textbf{(D)}\ 22\qquad\textbf{(E)}\ 24$ 
 
-> [!note]
+> [!NOTE]
 > `递推的方法`（这在计算机里很有用，是效率比较高的计算方式）。
 > $N_6  = N_5 + N_4 + N_3$：
 > - 如果第一步走一级台阶：剩下还需要走 $5$ 级。
 > - 如果第一步走两级台阶：剩下还需要走 $4$ 级。
 > - 如果第一步走三级台阶：剩下还需要走 $3$ 级。
 
-> [!todo] 
+> [!NOTE] Todo 
 > 练习题：计算 $N_7, N_8, N_9, N_{10}$。
 

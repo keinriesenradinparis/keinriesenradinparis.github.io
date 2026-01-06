@@ -48,7 +48,7 @@ $100 \times 3, \dots, 111 \times 3$
 
 ### ...sur la probabilité
 
-> [!note]
+> [!NOTE]
 > La fréquence, le rapport, le pourcentage, ce sont des concepts similaires lorsqu'on parle de la probabilité, notamment quand on parle d'un échantillonage.
 > 
 > Imaginons que le responsable d'une usine de chaussures voudrait savoir combien de chaussures parmi les 10,000,000 chaussures fabriquées peuvent passer un certain test. Cela revient au même de connaître **le taux de réussite** pour ce test. C'est le rapport
@@ -71,7 +71,7 @@ $14/50$
 $29/100$
 --> 
 
-> [!note]
+> [!NOTE]
 > Dessine le **diagramme de Venn**.
 
 **Exercice 8 (AMC 8-2016)**
@@ -88,7 +88,7 @@ $1/3$
 
 ### Premiers v.s. nombres composés
 
-> [!note]
+> [!NOTE]
 > Un nombre premier = nombre $p$ qui a seulement et exactement deux facteurs : $1$ et $p$.
 > Un nombre composé = nombre $n$ qui a d'autres facteurs que $1$ et $n$.
 > 
@@ -96,10 +96,10 @@ $1/3$
 > 
 > Les premiers nombres premiers : $2, 3, 5, 7, 11, 13, 17, 19, 23, 29$, etc.
 
-> [!tip]
+> [!TIP]
 > Le premier $2$ est pair, les autres premiers sont impairs. Cette parité est utile !
 
-> [!tip]
+> [!TIP]
 > Pour vérifier qu'un entier $n$ est un premier, il suffit de vérifier $p \nmid n$ pour tous les premiers $p \leq \sqrt{n}$. 
 
 **Exercice 1**
@@ -130,7 +130,7 @@ Quel numéro porte Caitlin ?
 
 ### Critères de divisibilité
 
-> [!note]
+> [!NOTE]
 > Divisibilité par $1$ : triviale, toujours vraie.
 > 
 > Divisibilité par $2$ $\iff$ $2$ divise **le dernier chiffre** (le chiffre des unités).
@@ -203,23 +203,23 @@ $U=7$, donc le reste modulo $8$ vaut $3$.
 
 ### Factorisation en facteurs premiers
 
-> [!example] Exemple
+> [!NOTE] Exemple
 > Factoriser $420$.
 
-> [!example] Exemple
+> [!NOTE] Exemple
 > Factoriser $117$.
 
-> [!example] Exemple
+> [!NOTE] Exemple
 > Factoriser $1001$.
 
-> [!example] Exemple
+> [!NOTE] Exemple
 > Factoriser $101$.
 
 **Exercice 7 (AMC 8-2011)**
 
 Que vaut la somme des facteurs premiers de $2010$ ?
 
-> [!note] Rappel sur le comptage
+> [!NOTE] Rappel sur le comptage
 > Nombres de facteurs de $12$ = ?
 > 
 > Nombres de facteurs de $p^a \times q^b \times r^c = (a+1) (b+1) (c+1)$.
@@ -269,7 +269,7 @@ $1001 = 7 \times 11 \times 13$.
 
 ### Puissance
 
-> [!note] 
+> [!NOTE] 
 > $$x^a \cdot x^b = x^{a+b}$$
 > $$(x^a)^b = x^{ab}$$
 > $$x^{-a} = 1/x^a$$
@@ -284,7 +284,7 @@ Si $3^p + 3^4  = 90$, $2^r + 44  = 76$ et $5^3 + 6^s = 1421$, quel est le produi
 
 ### Division
 
-> [!note]
+> [!NOTE]
 > On divise $n$ par $m$, on obtient **le quotient** $q$ et **le reste** $r$, c'est-à-dire :
 > $$
 > n = m \cdot q + r.
@@ -325,11 +325,11 @@ Combien de $n > 1$ à trois chiffres sont congruents à $2$ modulo $6$, à $5$ m
 
 ### Trouver le pgcd (et le ppcm)
 
-> [!note] Division euclidienne
+> [!NOTE] Division euclidienne
 > 又叫辗转相除法。
 > 原理：si $d = pgcd(a,b)$, alors $d$ divise $a, a-b, a-2b, \dots$, en particulier $d$ divise le reste de $a$ pour sa division par $b$.
 
-> [!example] 
+> [!NOTE] 
 > Calculer $d = pgcd(123,108)$.
 > - $123$ divisé par $108$ $\implies$ le reste est $15$.
 > - $108$ divisé par $15$ $\implies$ le reste est $3$.
@@ -346,7 +346,7 @@ Calculer :
 
 ### Cycle des restes
 
-> [!note]
+> [!NOTE]
 > Fixons des entiers $a$ et $N$.
 > Alors le reste de $a^n$ modulo $N$ est cyclique par rapport à $n$.
 

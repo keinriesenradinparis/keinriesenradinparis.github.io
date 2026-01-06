@@ -44,17 +44,17 @@ $$
 
 ### Exemples
 
-> [!example]
+> [!NOTE] Example
 > Il y a 600 élèves au collège. Il y en a un tiers en 6ème.
 > 那么 6e 有多少人？
 
-> [!example]
+> [!NOTE] Example
 > Dans un bocal il y a $n$ balles, dont 15% sont rouges. Si l'on compte et trouve 3 balles en total, alors combien vaut $n$ ?
 
-> [!example] 
+> [!NOTE] Example 
 > Il y a 500 élèves au collège. Il y en a une moitié en 6ème, un $1/4$ en 5ème, un $1/5$ en 4ème, et les autres sont en 3ème.
 > 那么每个年级有多少人？
-> > [!help]-
+> > [!TIP] Hint
 > > 250, 125, 100, 25.
 
 **相对比例可以做乘法：**
@@ -62,36 +62,37 @@ $$
 \text{rapport}~\alpha = \frac{\text{Grande}}{\text{Total}}, \quad \text{rapport}~\beta = \frac{\text{Grande verte}}{\text{Grande}} \implies \alpha \beta = \frac{\text{Grande verte}}{\text{Total}}.
 $$
 
-> [!example] 
+> [!NOTE] Example 
 > Sohil a un bocal avec beaucoup de billes. 20 % d'entre elles sont petites, 40 % sont moyennes et 40 % sont grandes. Pour chaque taille, 30 % des billes sont rouges, 20 % bleues, 40 % vertes et 10 % jaunes. La moitié des billes jaunes de grande taille et des billes vertes de petite taille ont un motif spécial. Quelle est la proportion (en pourcentage) de billes ayant un motif spécial parmi l'ensemble des billes ?
-> > [!help]- 列表格，知道要求什么量。
+> > [!TIP] Hint
+> > 列表格，知道要求什么量。
 > > $1/2 \times 10\% \times 40\% + 1/2 \times 40\% \times 20\% = 2\% + 4\% = 6\%$.
 
 **抽样问题：**
 - 残次品检验。
 - 生态学的例子：标记重补法（capture-marquage-recapture）来统计物种数量。
 
-> [!example] 
+> [!NOTE] Example 
 > La société *Calculatrice Dix Doigts* vérifie périodiquement au hasard des calculatrices avant d'expédier les caisses aux clients. Mercredi, 12 calculatrices ont été testées dans chacune des 64 caisses contenant 144 calculatrices. Deux des calculatrices testées se sont révélées défectueuses. Sur la base de ce taux de défaut, combien de calculatrices au total sont susceptibles d'être défectueuses ?
-> > [!help]-
+> > [!TIP] Hint
 > > $2/(12 \times 64) \times (144 \times 64) = 24$.
 
 **比例换算的问题：**
 
-> [!example] 
+> [!NOTE] Example 
 > $$
 > 2a = 3b = 5c \implies a : b : c = ?
 > $$
-> > [!help]-
+> > [!TIP] Hint
 > > 方法一：通分：
 > > $$
 > > a : b : c = 1/2 : 1/3 : 1/5 = 15 : 10 : 6.
 > > $$
 > > 方法二：特殊值方法（因为比例是相对大小，每个数可以同时翻倍而不改变比例）：假设 $2a = 3b = 5c = 30$ （或者 $2, 3, 5$ 的其他公倍数），然后做计算。
 
-> [!example] 
+> [!NOTE] Example 
 > Le rapport de $w$ à $x$ est $4 : 3$, le rapport de $y$ à $z$ est $3 : 2$, et le rapport de $z$ à $x$ est $1 : 6$. Quel est le rapport de $w$ à $y$ ?
-> > [!help]-
+> > [!TIP] Hint
 > > $w / y = w / x \cdot x / z \cdot z / y = 4/3 \times 6/1 \times 2/3 = 16/3$.
 
 ### Exercices
@@ -108,7 +109,8 @@ Le diagramme montre un octogone constitué de $10$ carrés unitaires. La partie 
 ![|400](attachments/Pasted%20image%2020250906221248.png)
 $\textbf{(A)}\ \frac 25 \qquad \textbf{(B)}\ \frac 12 \qquad \textbf{(C)}\ \frac 35 \qquad \textbf{(D)}\ \frac 23 \qquad \textbf{(E)}\ \frac 34$
 
-> [!help] 方法：分步考虑：
+> [!TIP] Hint
+> 方法：分步考虑：
 > - 面积的一半是多少？
 > - **割补法**求斜线下方的面积和 $YQ$ 长度的关系？
 > - 求出 $YQ$ 的长度。
@@ -118,7 +120,8 @@ $\textbf{(A)}\ \frac 25 \qquad \textbf{(B)}\ \frac 12 \qquad \textbf{(C)}\ \frac
 Dans une pièce, $2/5$ des personnes portent des gants et $3/4$ des personnes portent des chapeaux. Quel est le nombre minimum de personnes dans la pièce portant à la fois un chapeau et un gant ?
 $\textbf{(A)}\ 3 \qquad\textbf{(B)}\ 5\qquad\textbf{(C)}\ 8\qquad\textbf{(D)}\ 15\qquad\textbf{(E)}\ 20$ 
 
-> [!help]- 房间里的人数被 $5$ 整除，被 $4$ 整除。
+> [!TIP] Hint
+> 房间里的人数被 $5$ 整除，被 $4$ 整除。
 > 房间里有 $n$ 个人，$a$ 个人戴手套，$b$ 个人戴帽子。
 
 **思考题**
@@ -129,7 +132,8 @@ Steph a marqué $15$ paniers sur $20$ tentatives lors de la première mi-temps, 
 |  Steph   |  15/20   | 10/10 |
 | Candace | ?/12 | ?/18 |
 
-> [!help]- 把问号处的所有可能性都写出来。
+> [!TIP] Hint
+> 把问号处的所有可能性都写出来。
 > 然后观察一下，看看有没有想法。
 > 答案：8/12, 17/18.
 
@@ -147,17 +151,17 @@ La vitesse pourrait désigner :
 
 ### Exemples
 
-> [!example] 
+> [!NOTE] Example 
 > Joe doit se rendre à son bureau, situé à $40$ km. S'il conduit à $60$ km par heure, combien de minutes lui faudra-t-il pour arriver au travail ?
 
-> [!example] 
+> [!NOTE] Example 
 > Bob va chez Alice à vélo à $15$ km/h, et le chien de Bob court sans arrêt en avant et en arrière à une vitesse de $5$ km/h. Le chien court jusqu'à chez Alice, puis revient vers Bob ; lorsqu'il le rencontre, il repart vers Alice, et ainsi de suite. Quelle distance le chien a-t-il parcourue ?
 
 **AMC - Problem 8**
 Alors qu'Emily fait du vélo sur une longue route droite, elle aperçoit Emerson en train de patiner dans la **même** direction à $\frac{1}{2}$ km devant elle. Après l'avoir dépassé, elle peut le voir dans son rétroviseur jusqu'à ce qu'il se retrouve à $\frac{1}{2}$ km derrière elle. Emily roule à une vitesse constante de **$12$ km par heure**, et Emerson patine à une vitesse constante de **$8$ km par heure**. Pendant combien de **minutes** Emily peut-elle voir Emerson ?
 $\textbf{(A)}\ 6 \qquad\textbf{(B)}\ 8\qquad\textbf{(C)}\ 12\qquad\textbf{(D)}\ 15\qquad\textbf{(E)}\ 16$
 
-> [!question]
+> [!TIP] Question
 单位换算：把下面时间换算成分钟：
 > - $1$ 小时，$0.5$ 小时，$2/3$ 小时，$1/3$ 小时，$1/4$ 小时，$2/5$ 小时，$1/6$ 小时。
 
@@ -182,10 +186,11 @@ $$
 **两者协作，速度相加**
 Alex, en utilisant la méthode de substitution ou d'élimination, peut résoudre $20$ équations à deux variables en $10$ minutes. Bob, qui utilise la méthode du produit diagonal, peut résoudre $20$ équations à deux variables en $2$ minutes. Combien de temps leur faudra-t-il pour résoudre $60$ équations à deux variables en travaillant ensemble ?
 
-> [!help]-
+> [!TIP] Hint
 > $60/(20/10 + 20/2) = 5$.
 
-> [!question]- 列方程怎么解？
+> [!TIP] Question
+> 列方程怎么解？
 > $$
 > 20/10 \times t + 20/2 \times t = 60 \implies t = ?
 > $$
