@@ -109,9 +109,10 @@
                 tex: {
                     inlineMath: [['$', '$'], ['\\(', '\\)']],
                     displayMath: [['$$', '$$'], ['\\[', '\\]']],
-                    // enable line breaks inside inline math
                     packages: {'[+]': ['ams']},
-                    tags: 'none'
+                    tags: 'none',
+                    // enable line breaks inside inline math
+                    linebreaks: { automatic: true }
                 },
                 startup: {
                     ready() {
