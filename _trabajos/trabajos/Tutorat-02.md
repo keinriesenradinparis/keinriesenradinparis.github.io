@@ -188,6 +188,6 @@ Alex, en utilisant la méthode de substitution ou d'élimination, peut résoudre
 > $60/(20/10 + 20/2) = 5$.
 
 > [!TIP] Question
-> 列方程怎么解
+> 列方程怎么解：
 > $20/10 \times t + 20/2 \times t = 60 \implies t = ?$
 

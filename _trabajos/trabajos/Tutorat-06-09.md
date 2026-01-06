@@ -169,9 +169,7 @@ Il y a $n$ personnes qui s'assoient autour d'une table ronde.
 
 > [!NOTE]
 > Par définition :
-> $$
-> \text{la chance} = \frac{\text{possibilité}}{\text{nombre de choix total}}.
-> $$
+> $\text{la chance} = \frac{\text{possibilité}}{\text{nombre de choix total}}$.
 
 **AMC 8**
 

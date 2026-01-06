@@ -61,26 +61,11 @@ Triplets pythagoriciens importants :
 > [!NOTE] AMC 8 (2015)
 > Dans le triangle $\bigtriangleup ABC$, on a $AB = BC = 29$ et $AC = 42$.  
 > Quelle est l'aire du triangle $\bigtriangleup ABC$ ?
-> $$
-> \textbf{(A) }100 \qquad
-> \textbf{(B) }420 \qquad
-> \textbf{(C) }500 \qquad
-> \textbf{(D) }609 \qquad
-> \textbf{(E) }701
-> $$ 
 
 > [!NOTE] AMC 8 (1998)
 > Quel est le rapport de l'aire du carré ombré sur l'aire du grand carré ?  
 > 
 > ![|200](attachments/Pasted%20image%2020250916000446.png)
-> 
-> $$
-> \text{(A)}\ \frac{1}{6} \qquad
-> \text{(B)}\ \frac{1}{7} \qquad
-> \text{(C)}\ \frac{1}{8} \qquad
-> \text{(D)}\ \frac{1}{12} \qquad
-> \text{(E)}\ \frac{1}{16}
-> $$
 
 ### 特殊边长的三角形
 
@@ -106,7 +91,6 @@ Triplets pythagoriciens importants :
 
 > [!NOTE] AMC 8 (2015)
 > Quel est le plus petit nombre entier supérieur au périmètre de tout triangle ayant un côté de longueur $5$ et un côté de longueur $19$ ?
-> $$\textbf{(A) }24 \qquad \textbf{(B) }29 \qquad \textbf{(C) }43 \qquad \textbf{(D) }48 \qquad \textbf{(E) }57$$
 
 ### 运动坐标图
 

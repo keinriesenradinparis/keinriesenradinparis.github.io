@@ -270,10 +270,10 @@ $1001 = 7 \times 11 \times 13$.
 ### Puissance
 
 > [!NOTE] 
-> $$x^a \cdot x^b = x^{a+b}$$
-> $$(x^a)^b = x^{ab}$$
-> $$x^{-a} = 1/x^a$$
-> $$\sqrt[n]{x} = x^{1/n}$$
+> - $x^a \cdot x^b = x^{a+b}$
+> - $(x^a)^b = x^{ab}$
+> - $x^{-a} = 1/x^a$
+> - $\sqrt[n]{x} = x^{1/n}$
 
 **Exercice 12.5 (AMC 8-2013)**
 
@@ -285,13 +285,9 @@ Si $3^p + 3^4  = 90$, $2^r + 44  = 76$ et $5^3 + 6^s = 1421$, quel est le produi
 
 > [!NOTE]
 > On divise $n$ par $m$, on obtient **le quotient** $q$ et **le reste** $r$, c'est-à-dire :
-> $$
-> n = m \cdot q + r.
-> $$
+> $n = m \cdot q + r$.
 > Si on veut se concentré sur le reste, on peut écrire
-> $$
-> n \equiv m \pmod r \quad \text{ou} \quad n \equiv m~[r].
-> $$
+> $n \equiv m \pmod r \quad \text{ou} \quad n \equiv m~[r]$.
 
 **Exercice 13 (AMC 8-2016)**
 
@@ -417,7 +413,7 @@ ABA = 101
 
 **Exercice 25 (AMC 8-2017)**
 
-$$\newcommand{\abs}[1]{\left|#1\right|}$$
+<!-- $$\newcommand{\abs}[1]{\left|#1\right|}$$ -->
 
 La **valeur absolue** $\abs{a}$ d'un nombre $a$ est égale à $a$ si $a$ est positif, et est égale à $-a$ si $a$ est négatif, par exemple : $\abs{25} = \abs{-25} = 25$.
 
