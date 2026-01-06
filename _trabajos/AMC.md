@@ -6,11 +6,10 @@ categories:
 # layout: page_light
 ---
 
-## AMC competition resources:
-
+**AMC competition resources**:
 - [AoPS online](https://artofproblemsolving.com/wiki/index.php/AMC_8_Problems_and_Solutions): this collects many exam problems as well as _many_ solutions.
 
-## Notes prepared for 2025 Fall/Winter
+**Notes prepared for 2025 Fall/Winter**:
 - [01](Tutorat-01.html)
 - [02](Tutorat-02.html)
 - [03](Tutorat-03.html)

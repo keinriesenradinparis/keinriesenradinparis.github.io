@@ -52,9 +52,7 @@ $100 \times 3, \dots, 111 \times 3$
 > La fréquence, le rapport, le pourcentage, ce sont des concepts similaires lorsqu'on parle de la probabilité, notamment quand on parle d'un échantillonage.
 > 
 > Imaginons que le responsable d'une usine de chaussures voudrait savoir combien de chaussures parmi les 10,000,000 chaussures fabriquées peuvent passer un certain test. Cela revient au même de connaître **le taux de réussite** pour ce test. C'est le rapport
-> $$
-> \frac{\text{le nombre de chaussures qui ont réussi}}{\text{le nombre total des chassures}}.
-> $$
+> $\frac{\text{le nombre de chaussures qui ont réussi}}{\text{le nombre total des chassures}}$.
 > Ce rapport reflète aussi **la chance ou la probabilité de réussite** pour chaque chaussure individuelle, si on en choisit une **au hasard**.
 >
 > <!-- Idéalement, ce n'est pas la peine de faire passer toutes les chaussures pour connaître ce rapport. Par exemple, on peut choisir au hasard 1,000 chaussures pour tester. Si 30 chaussures passent le test, alors on peut dire que la probabilité de réussite est environ $3\%$. C'est la méthode d'**échantillonnage**.--> 
