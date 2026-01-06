@@ -96,8 +96,10 @@
 
             /* Try to break inline math formulas */
             mjx-container {
+                max-width: 100%;
                 white-space: normal !important;
                 word-break: break-word;
+                display: inline-block;
             }
         </style>
 
@@ -117,7 +119,7 @@
                     displayMath: [['$$', '$$'], ['\\[', '\\]']],
                     packages: {'[+]': ['ams']},
                     tags: 'none',
-                    // enable line breaks inside display math (NOT inline math)
+                    // Try to enable line breaks inside display math (NOT inline math)
                     linebreaks: { automatic: true }
                 },
                 startup: {
