@@ -93,6 +93,12 @@
             img {
                 background-color: #F3E8D9; /* 图片背景色 */
             }
+
+            /* Try to break inline math formulas */
+            mjx-container {
+                white-space: normal !important;
+                word-break: break-word;
+            }
         </style>
 
         <!-- MathJax Latex newcommands -->
@@ -111,7 +117,7 @@
                     displayMath: [['$$', '$$'], ['\\[', '\\]']],
                     packages: {'[+]': ['ams']},
                     tags: 'none',
-                    // enable line breaks inside inline math
+                    // enable line breaks inside display math (NOT inline math)
                     linebreaks: { automatic: true }
                 },
                 startup: {
