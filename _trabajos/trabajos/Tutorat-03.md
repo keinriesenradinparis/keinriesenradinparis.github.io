@@ -106,13 +106,7 @@ Triplets pythagoriciens importants :
 
 > [!NOTE] AMC 8 (2015)
 > Quel est le plus petit nombre entier supérieur au périmètre de tout triangle ayant un côté de longueur $5$ et un côté de longueur $19$ ?
-> $$
-> \textbf{(A) }24 \qquad
-> \textbf{(B) }29 \qquad
-> \textbf{(C) }43 \qquad
-> \textbf{(D) }48 \qquad
-> \textbf{(E) }57
-> $$
+> $$\textbf{(A) }24 \qquad \textbf{(B) }29 \qquad \textbf{(C) }43 \qquad \textbf{(D) }48 \qquad \textbf{(E) }57$$
 
 ### 运动坐标图
 

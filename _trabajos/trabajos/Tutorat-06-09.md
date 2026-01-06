@@ -130,13 +130,14 @@ Relâche vacances de toussaints.
 
 100 élèves votent pour choisir un représentant parmi 3 candidats. Chacun vote une seule fois.
 
-1. Si les papiers de vote de chaque élève sont tous distincts (par exemple s'il sont marqués par un nombre), alors il y a combien de possibilités de résultat dans les boîtes de vote ? (Non seulement les nombres de votes obtenus comptent.)
+(1) Si les papiers de vote de chaque élève sont tous distincts (par exemple s'il sont marqués par un nombre), alors il y a combien de possibilités de résultat dans les boîtes de vote ? (Non seulement les nombres de votes obtenus comptent.)
 
 Supposons maintenant que les votes sont indiscernables, alors seulement les nombres de votes obtenues compte.
 
-2. Il y a combien de possibilités de résultat ?
+(2) Il y a combien de possibilités de résultat ?
 - Indice : réfléchir pourquoi c'est comme avoir trois nombres $a$, $b$, $c$ associés aux trois boîtes tels que $a + b + c = 100$.
-3. Il y a combien de possibilités de résultat où (au moins) 2 candidats ont obtenu le même nombres de votes ?
+
+(3) Il y a combien de possibilités de résultat où (au moins) 2 candidats ont obtenu le même nombres de votes ?
 
 **Méthode inductive 递推法**：
 

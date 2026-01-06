@@ -80,15 +80,11 @@ $$
 **比例换算的问题：**
 
 > [!NOTE] Example 
-> $$
-> 2a = 3b = 5c \implies a : b : c = ?
-> $$
+> $2a = 3b = 5c \implies a : b : c = ?$
 > > Hint:
 > > 
 > > 方法一：通分：
-> > $$
-> > a : b : c = 1/2 : 1/3 : 1/5 = 15 : 10 : 6.
-> > $$
+> > $a : b : c = 1/2 : 1/3 : 1/5 = 15 : 10 : 6$.
 > >
 > > 方法二：特殊值方法（因为比例是相对大小，每个数可以同时翻倍而不改变比例）：假设 $2a = 3b = 5c = 30$ （或者 $2, 3, 5$ 的其他公倍数），然后做计算。
 
@@ -192,8 +188,6 @@ Alex, en utilisant la méthode de substitution ou d'élimination, peut résoudre
 > $60/(20/10 + 20/2) = 5$.
 
 > [!TIP] Question
-> 列方程怎么解？
-> $$
-> 20/10 \times t + 20/2 \times t = 60 \implies t = ?
-> $$
+> 列方程怎么解
+> $20/10 \times t + 20/2 \times t = 60 \implies t = ?$
 
