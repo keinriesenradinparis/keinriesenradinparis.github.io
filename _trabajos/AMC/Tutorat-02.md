@@ -105,7 +105,7 @@ Le sommet d'un arbre est à $15$ mètres plus haut que celui d'un autre arbre. L
 Le diagramme montre un octogone constitué de $10$ carrés unitaires. La partie située sous $\overline{PQ}$ est un carré unitaire et un triangle de base $5$. Si $\overline{PQ}$ divise l'aire de l'octogone en deux parties égales, quel est le rapport $\frac{XQ}{QY}$ ?
 
 ![|400](attachments/Pasted%20image%2020250906221248.png)
-$\textbf{(A)}\ \frac 25 \qquad \textbf{(B)}\ \frac 12 \qquad \textbf{(C)}\ \frac 35 \qquad \textbf{(D)}\ \frac 23 \qquad \textbf{(E)}\ \frac 34$
+$$\textbf{(A)}\ \frac 25 \qquad \textbf{(B)}\ \frac 12 \qquad \textbf{(C)}\ \frac 35 \qquad \textbf{(D)}\ \frac 23 \qquad \textbf{(E)}\ \frac 34$$
 
 > [!TIP] Hint
 > 方法：分步考虑：
@@ -116,7 +116,7 @@ $\textbf{(A)}\ \frac 25 \qquad \textbf{(B)}\ \frac 12 \qquad \textbf{(C)}\ \frac
 
 **AMC 8 - Problem 20**
 Dans une pièce, $2/5$ des personnes portent des gants et $3/4$ des personnes portent des chapeaux. Quel est le nombre minimum de personnes dans la pièce portant à la fois un chapeau et un gant ?
-$\textbf{(A)}\ 3 \qquad\textbf{(B)}\ 5\qquad\textbf{(C)}\ 8\qquad\textbf{(D)}\ 15\qquad\textbf{(E)}\ 20$ 
+$$\textbf{(A)}\ 3 \qquad\textbf{(B)}\ 5\qquad\textbf{(C)}\ 8\qquad\textbf{(D)}\ 15\qquad\textbf{(E)}\ 20$$ 
 
 > [!TIP] Hint
 > 房间里的人数被 $5$ 整除，被 $4$ 整除。
@@ -157,7 +157,7 @@ La vitesse pourrait désigner :
 
 **AMC - Problem 8**
 Alors qu'Emily fait du vélo sur une longue route droite, elle aperçoit Emerson en train de patiner dans la **même** direction à $\frac{1}{2}$ km devant elle. Après l'avoir dépassé, elle peut le voir dans son rétroviseur jusqu'à ce qu'il se retrouve à $\frac{1}{2}$ km derrière elle. Emily roule à une vitesse constante de **$12$ km par heure**, et Emerson patine à une vitesse constante de **$8$ km par heure**. Pendant combien de **minutes** Emily peut-elle voir Emerson ?
-$\textbf{(A)}\ 6 \qquad\textbf{(B)}\ 8\qquad\textbf{(C)}\ 12\qquad\textbf{(D)}\ 15\qquad\textbf{(E)}\ 16$
+$$\textbf{(A)}\ 6 \qquad\textbf{(B)}\ 8\qquad\textbf{(C)}\ 12\qquad\textbf{(D)}\ 15\qquad\textbf{(E)}\ 16$$
 
 > [!TIP] Question
 > 单位换算：把下面时间换算成分钟：
