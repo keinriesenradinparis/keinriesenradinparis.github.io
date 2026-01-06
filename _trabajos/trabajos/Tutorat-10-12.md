@@ -120,10 +120,10 @@ La somme des deux nombres premiers fait $85$. Que vaut leur produit ?
 **Exercice 3 (AMC 8)**
 
 Trois membres de l’équipe féminine de softball du collège Euclid ont eu la conversation suivante.  
-**Ashley :** Je viens de réaliser que nos numéros de maillot sont tous des nombres premiers à deux chiffres.  
-**Brittany :** Et la somme de vos deux numéros de maillot est la date de mon anniversaire plus tôt ce mois-ci.  
-**Caitlin :** C’est drôle. La somme de vos deux numéros de maillot est la date de mon anniversaire plus tard ce mois-ci.  
-**Ashley :** Et la somme de vos deux numéros de maillot est la date d’aujourd’hui.  
+- **Ashley :** Je viens de réaliser que nos numéros de maillot sont tous des nombres premiers à deux chiffres.  
+- **Brittany :** Et la somme de vos deux numéros de maillot est la date de mon anniversaire plus tôt ce mois-ci.  
+- **Caitlin :** C’est drôle. La somme de vos deux numéros de maillot est la date de mon anniversaire plus tard ce mois-ci.  
+- **Ashley :** Et la somme de vos deux numéros de maillot est la date d’aujourd’hui.  
 Quel numéro porte Caitlin ?
 
 (Indication : commencer par énumérer les nombres premiers à deux chiffres $11, 13, 17, 19, 23, 29$, etc.)
@@ -131,47 +131,47 @@ Quel numéro porte Caitlin ?
 ### Critères de divisibilité
 
 > [!NOTE]
-> Divisibilité par $1$ : triviale, toujours vraie.
+> - Divisibilité par $1$ : triviale, toujours vraie.
 > 
-> Divisibilité par $2$ $\iff$ $2$ divise **le dernier chiffre** (le chiffre des unités).
+> - Divisibilité par $2$ $\iff$ $2$ divise **le dernier chiffre** (le chiffre des unités).
 > 
-> Divisibilité par $3$ $\iff$ $3$ divise **la somme de tous les chiffres**. Par exemple, pour $abc$, il faut $3 \mid a + b + c$.
+> - Divisibilité par $3$ $\iff$ $3$ divise **la somme de tous les chiffres**. Par exemple, pour $abc$, il faut $3 \mid a + b + c$.
 > 
-> Divisibilité par $4$ $\iff$ $4$ divise **les deux derniers chiffres**. Par exemple, pour $abcd$, il faut regarder $cd$.
+> - Divisibilité par $4$ $\iff$ $4$ divise **les deux derniers chiffres**. Par exemple, pour $abcd$, il faut regarder $cd$.
 > 
-> Divisibilité par $5$ $\iff$ $5$ divise **le dernier chiffre** $\iff$ le dernier chiffre est $0$ ou $5$.
+> - Divisibilité par $5$ $\iff$ $5$ divise **le dernier chiffre** $\iff$ le dernier chiffre est $0$ ou $5$.
 > 
-> Divisibilité par $6$ $\iff$ divisibilité par $2$ et par $3$.
+> - Divisibilité par $6$ $\iff$ divisibilité par $2$ et par $3$.
 > 
-> Divisibilité par $7$ : pas de critère facile !
+> - Divisibilité par $7$ : pas de critère facile !
 > 
-> Divisibilité par $8$ $\iff$ $8$ divise **les trois derniers chiffres**. Par exemple, pour $abcd$, il faut regarder $bcd$.
+> - Divisibilité par $8$ $\iff$ $8$ divise **les trois derniers chiffres**. Par exemple, pour $abcd$, il faut regarder $bcd$.
 > 
-> Divisibilité par $9$ $\iff$ $9$ divise **la somme de tous les chiffres**. Par exemple, pour $abc$, il faut $3 \mid a + b + c$.
+> - Divisibilité par $9$ $\iff$ $9$ divise **la somme de tous les chiffres**. Par exemple, pour $abc$, il faut $3 \mid a + b + c$.
 > 
-> Divisibilité par $10$ $\iff$ divisibilité par $2$ et par $5$.
+> - Divisibilité par $10$ $\iff$ divisibilité par $2$ et par $5$.
 > 
-> Divisibilité par $11$ $\iff$ $11$ divise **la somme altérées de tous les chiffres**. Par exemple, pour $abcdef$, il faut que $11 \mid (a-b+c-d+e-f)$.
+> - Divisibilité par $11$ $\iff$ $11$ divise **la somme altérées de tous les chiffres**. Par exemple, pour $abcdef$, il faut que $11 \mid (a-b+c-d+e-f)$.
 > 
-> Divisibilité par $12$ $\iff$ divisibilité par $3$ et par $4$.
+> - Divisibilité par $12$ $\iff$ divisibilité par $3$ et par $4$.
 > 
-> Divisibilité par $13$ : pas de critère facile !
+> - Divisibilité par $13$ : pas de critère facile !
 > 
-> Divisibilité par $14$ $\iff$ divisibilité par $2$ et par $7$.
+> - Divisibilité par $14$ $\iff$ divisibilité par $2$ et par $7$.
 > 
-> Divisibilité par $15$ $\iff$ divisibilité par $3$ et par $5$.
+> - Divisibilité par $15$ $\iff$ divisibilité par $3$ et par $5$.
 > 
-> Divisibilité par $16$ $\iff$ $16$ divise **les quatre derniers chiffres**.
+> - Divisibilité par $16$ $\iff$ $16$ divise **les quatre derniers chiffres**.
 > 
-> Divisibilité par $17$ : pas de critère facile !
+> - Divisibilité par $17$ : pas de critère facile !
 > 
-> Divisibilité par $18$ $\iff$ divisibilité par $2$ et par $9$.
+> - Divisibilité par $18$ $\iff$ divisibilité par $2$ et par $9$.
 > 
-> Divisibilité par $19$ : pas de critère facile !
+> - Divisibilité par $19$ : pas de critère facile !
 > 
-> Divisibilité par $20$ $\iff$ divisibilité par $4$ et par $5$.
+> - Divisibilité par $20$ $\iff$ divisibilité par $4$ et par $5$.
 > 
-> Divisibilité par $21$$\iff$ divisibilité par $3$ et par $7$.
+> - Divisibilité par $21$$\iff$ divisibilité par $3$ et par $7$.
 
 
 

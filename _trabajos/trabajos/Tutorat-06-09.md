@@ -30,7 +30,6 @@ Exercices sur la somme (et la série) :
 | 2015  | 18          | suite arithmétique             |
 | 2013  | 3           | téléscopique                   |
 | 2013  | 17          | somme d'une suite arithmétique |
-|       |             |                                |
 
 ## Combinatoire
 
@@ -48,15 +47,15 @@ Applications :
 #### 10月12日作业：
 
 等差数列求和：
-（1）求和：3+7+11+15+19+23
-（2）A4纸上还有一道剩下的习题
+1. 求和：3+7+11+15+19+23
+2. A4纸上还有一道剩下的习题
 
 排列组合问题：知道怎么算arrangement（排列）和combinaison（组合）的种数。
 并考虑以下问题（只需要列出表达式）：
-（2）5个人坐5张椅子有几种坐法？5个人坐3张椅子呢？
-（3）一副扑克有54张牌，洗牌结果总共有几种？
-（4）一个人连续投五次硬币，总共有三次是数字朝上的可能性有几种？
-（5）两个人Alice和Bob坐在5张椅子上，总共有几种坐法？其中Alice坐在Bob左边的可能性有几种？
+3. 5个人坐5张椅子有几种坐法？5个人坐3张椅子呢？
+4. 一副扑克有54张牌，洗牌结果总共有几种？
+5. 一个人连续投五次硬币，总共有三次是数字朝上的可能性有几种？
+6. 两个人Alice和Bob坐在5张椅子上，总共有几种坐法？其中Alice坐在Bob左边的可能性有几种？
 
 #### 10月19日作业：
 
@@ -66,24 +65,24 @@ Exercice 1
 
 On forme des nombres à trois chiffres (avec les chiffres 0, 1, 2, 3,… , 9).
 
-(1) Combien de nombres à trois chiffres peut-on former au total ? (N.B. Ils ne commencent pas avec le zéro, et peuvent avoir des chiffres répétés.)
-(2) Combien de ces nombres ne contiennent pas le “7” ?
+1. Combien de nombres à trois chiffres peut-on former au total ? (N.B. Ils ne commencent pas avec le zéro, et peuvent avoir des chiffres répétés.)
+2. Combien de ces nombres ne contiennent pas le “7” ?
 
 Exercice 2
 
 On choisit 3 élèves parmi A, B, C, D, E, pour former un groupe. 
 
-(0) C’est une question de combinaison ou d’arrangement ?
-(1) Combien de façons de former un tel groupe ?
-(2) Si A et B ne peuvent pas être choisis ensemble, combien de façons reste-t-il ?
+0. C’est une question de combinaison ou d’arrangement ?
+1. Combien de façons de former un tel groupe ?
+2. Si A et B ne peuvent pas être choisis ensemble, combien de façons reste-t-il ?
 
 Exercice 3
 
 On choisit 3 lettres parmi A, B, C, D, E, puis on les met dans un ordre pour former un mot (peut-être n’existant pas dans le dictionnaire).
 
-(0) C’est une question de combinaison ou d’arrangement ?
-(1) Combien de mots peut-on former ?
-(2) Combien de mots ne contiennent pas A et B à la fois ?
+0. C’est une question de combinaison ou d’arrangement ?
+1. Combien de mots peut-on former ?
+2. Combien de mots ne contiennent pas A et B à la fois ?
 
 **Exercice 4 (méthode de barres)**
 
@@ -105,7 +104,7 @@ Relâche vacances de toussaints.
 | 2020  | 21          | combinaison (un peu difficile), ou le triangle de Yang Hui / Pascal (induction) (exemples : le score du jeu du pingpong) |
 | 2020  | 23          | combinaison avec certaines conditions                                                                                    |
 
-> [!note]
+> [!NOTE]
 > Concernant le triangle de Yang Hui : c'est une méthode graphique et **inductive** pour compter le nombre de **chemins menant d'un point à un autre point sur un graphe**.
 > 
 > Par exemple, on peut se demander :
@@ -121,23 +120,23 @@ Relâche vacances de toussaints.
 
 4 personnes Alice, Bernard, Cécile, Dorian partagent 10 bonbons.
 
-(1) Il y a combien de façons pour leur distribuent les bonbons ?
-(2) Si chacun demande au moins 1 bonbon, alors il en reste combien de façons ?
-(3) Si Alice, Bernard et Cécile demandent au moins 2 bonbons, mais Dorian demande au moins 1 bonbon, alors il en reste combien de façons ?
-(4) Si tout le monde demande au moins 2 bonbons, alors il en reste combien de façons ?
-(5) (plus dur) Si Alice n'a pas de préférence, Bernard et Cécile demande au moins 1 bonbon, Dorian demande au moins 2 bonbons, alors il y a combien de façon de distribution ?
+1. Il y a combien de façons pour leur distribuent les bonbons ?
+2. Si chacun demande au moins 1 bonbon, alors il en reste combien de façons ?
+3. Si Alice, Bernard et Cécile demandent au moins 2 bonbons, mais Dorian demande au moins 1 bonbon, alors il en reste combien de façons ?
+4. Si tout le monde demande au moins 2 bonbons, alors il en reste combien de façons ?
+5. (plus dur) Si Alice n'a pas de préférence, Bernard et Cécile demande au moins 1 bonbon, Dorian demande au moins 2 bonbons, alors il y a combien de façon de distribution ?
 
 **Exercice 2**
 
 100 élèves votent pour choisir un représentant parmi 3 candidats. Chacun vote une seule fois.
 
-(1) Si les papiers de vote de chaque élève sont tous distincts (par exemple s'il sont marqués par un nombre), alors il y a combien de possibilités de résultat dans les boîtes de vote ? (Non seulement les nombres de votes obtenus comptent.)
+1. Si les papiers de vote de chaque élève sont tous distincts (par exemple s'il sont marqués par un nombre), alors il y a combien de possibilités de résultat dans les boîtes de vote ? (Non seulement les nombres de votes obtenus comptent.)
 
 Supposons maintenant que les votes sont indiscernables, alors seulement les nombres de votes obtenues compte.
 
-(2) Il y a combien de possibilités de résultat ?
+2. Il y a combien de possibilités de résultat ?
 - Indice : réfléchir pourquoi c'est comme avoir trois nombres $a$, $b$, $c$ associés aux trois boîtes tels que $a + b + c = 100$.
-(3) Il y a combien de possibilités de résultat où (au moins) 2 candidats ont obtenu le même nombres de votes ?
+3. Il y a combien de possibilités de résultat où (au moins) 2 candidats ont obtenu le même nombres de votes ?
 
 **Méthode inductive 递推法**：
 
@@ -167,7 +166,7 @@ Il y a $n$ personnes qui s'assoient autour d'une table ronde.
 | ----- | ----------- | ----------------------- |
 | 2018  | 11          | compter sous contrainte |
 
-> [!info]
+> [!NOTE]
 > Par définition :
 > $$
 > \text{la chance} = \frac{\text{possibilité}}{\text{nombre de choix total}}.

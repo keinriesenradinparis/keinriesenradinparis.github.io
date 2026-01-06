@@ -21,9 +21,9 @@ C'est la même valeur quel que soit le diamètre du cercle.
 - 面积 $S = \pi r^2$。
 
 **角度为 $\alpha$ 的扇形：**
-弧度占 $360\degree$ 的比例 = 扇形周长占圆周长的比例 = 扇形面积占圆面积的比例：
+弧度占 $360^\circ$ 的比例 = 扇形周长占圆周长的比例 = 扇形面积占圆面积的比例：
 $$
-\frac{\alpha}{360\degree} = \frac{\text{longueur de l'arc}}{C} = \frac{\text{aire du secteur circulaire}}{S}
+\frac{\alpha}{360^\circ} = \frac{\text{longueur de l'arc}}{C} = \frac{\text{aire du secteur circulaire}}{S}
 $$
 
 ## Exercices en géométrie planaire

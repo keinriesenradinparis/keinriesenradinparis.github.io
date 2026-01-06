@@ -54,7 +54,7 @@ $$
 > [!NOTE] Example 
 > Il y a 500 élèves au collège. Il y en a une moitié en 6ème, un $1/4$ en 5ème, un $1/5$ en 4ème, et les autres sont en 3ème.
 > 那么每个年级有多少人？
-> > [!TIP] Hint
+> > Hint:
 > > 250, 125, 100, 25.
 
 **相对比例可以做乘法：**
@@ -64,7 +64,7 @@ $$
 
 > [!NOTE] Example 
 > Sohil a un bocal avec beaucoup de billes. 20 % d'entre elles sont petites, 40 % sont moyennes et 40 % sont grandes. Pour chaque taille, 30 % des billes sont rouges, 20 % bleues, 40 % vertes et 10 % jaunes. La moitié des billes jaunes de grande taille et des billes vertes de petite taille ont un motif spécial. Quelle est la proportion (en pourcentage) de billes ayant un motif spécial parmi l'ensemble des billes ?
-> > [!TIP] Hint
+> > Hint:
 > > 列表格，知道要求什么量。
 > > $1/2 \times 10\% \times 40\% + 1/2 \times 40\% \times 20\% = 2\% + 4\% = 6\%$.
 
@@ -74,7 +74,7 @@ $$
 
 > [!NOTE] Example 
 > La société *Calculatrice Dix Doigts* vérifie périodiquement au hasard des calculatrices avant d'expédier les caisses aux clients. Mercredi, 12 calculatrices ont été testées dans chacune des 64 caisses contenant 144 calculatrices. Deux des calculatrices testées se sont révélées défectueuses. Sur la base de ce taux de défaut, combien de calculatrices au total sont susceptibles d'être défectueuses ?
-> > [!TIP] Hint
+> > Hint:
 > > $2/(12 \times 64) \times (144 \times 64) = 24$.
 
 **比例换算的问题：**
@@ -83,16 +83,18 @@ $$
 > $$
 > 2a = 3b = 5c \implies a : b : c = ?
 > $$
-> > [!TIP] Hint
+> > Hint:
+> > 
 > > 方法一：通分：
 > > $$
 > > a : b : c = 1/2 : 1/3 : 1/5 = 15 : 10 : 6.
 > > $$
+> >
 > > 方法二：特殊值方法（因为比例是相对大小，每个数可以同时翻倍而不改变比例）：假设 $2a = 3b = 5c = 30$ （或者 $2, 3, 5$ 的其他公倍数），然后做计算。
 
 > [!NOTE] Example 
 > Le rapport de $w$ à $x$ est $4 : 3$, le rapport de $y$ à $z$ est $3 : 2$, et le rapport de $z$ à $x$ est $1 : 6$. Quel est le rapport de $w$ à $y$ ?
-> > [!TIP] Hint
+> > Hint:
 > > $w / y = w / x \cdot x / z \cdot z / y = 4/3 \times 6/1 \times 2/3 = 16/3$.
 
 ### Exercices
@@ -162,7 +164,7 @@ Alors qu'Emily fait du vélo sur une longue route droite, elle aperçoit Emerson
 $\textbf{(A)}\ 6 \qquad\textbf{(B)}\ 8\qquad\textbf{(C)}\ 12\qquad\textbf{(D)}\ 15\qquad\textbf{(E)}\ 16$
 
 > [!TIP] Question
-单位换算：把下面时间换算成分钟：
+> 单位换算：把下面时间换算成分钟：
 > - $1$ 小时，$0.5$ 小时，$2/3$ 小时，$1/3$ 小时，$1/4$ 小时，$2/5$ 小时，$1/6$ 小时。
 
 **Solution par vitesse relative :**
