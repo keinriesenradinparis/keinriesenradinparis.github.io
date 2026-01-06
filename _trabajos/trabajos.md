@@ -11,7 +11,8 @@ permalink: "/trabajos/index.html"
 
 学习：
 - [Interface](interface.html)
-- [Séminaire](seminaire.md)
+- [Séminaire](seminaire.html)
+- [AMC](AMC.html)
 
 巴黎拍摄：
 - [Fluctuat nec mergitur 徽标地点](fluctuat-nec-mergitur-徽标地点.html)

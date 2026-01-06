@@ -89,15 +89,38 @@
             tr:nth-child(even) td {
                 background-color: var(--code-block-color-darker) !important;
             }
+
+            img {
+                background-color: #F3E8D9; /* 图片背景色 */
+            }
         </style>
 
+        <!-- MathJax Latex newcommands -->
+        <!-- This can be customised on each page. -->
+        <script type="text/x-tex-macros">
+            \newcommand{\R}{\mathbf{R}}
+            \newcommand{\abs}[1]{\left|#!\right|}
+            \let\star=\ast
+        </script>
         <!-- MathJax Latex settings -->
+        <!-- This is supposed to for every page. -->
         <script>
             window.MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']],
-                displayMath: [['$$', '$$'], ['\\[', '\\]']]
-            }
+                tex: {
+                    inlineMath: [['$', '$'], ['\\(', '\\)']],
+                    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                    // enable line breaks inside inline math
+                    packages: {'[+]': ['ams']},
+                    tags: 'none'
+                },
+                startup: {
+                    ready() {
+                    MathJax.startup.defaultReady();
+                    const {STATE} = MathJax._.core.MathItem;
+                    const defs = document.querySelector('script[type="text/x-tex-macros"]');
+                    MathJax.tex2mml(defs?.textContent || '');
+                    }
+                }
             };
         </script>
         <script
@@ -107,6 +130,7 @@
 
         <title>{{ page.title }}</title>
     
+        <!-- Set default url base -->
         <!-- see comments in custom-head.html -->
         <base href="/trabajos/">
     </head>
