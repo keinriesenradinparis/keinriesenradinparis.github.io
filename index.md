@@ -9,7 +9,7 @@ if_print_post_list: false
 
 Last updated:
 - (03/01/2026) Added a [section](/web.html) on web development (IT side).
-- (31/12/2025) Un [sito web](/trabajos/baoxiao.html) che permette di creare un modulo di rimborso.
+- (31/12/2025) Un [sito web](/html/baoxiao.html) che permette di creare un modulo di rimborso.
 - (26/11/2024) 法语单词及其发音（每周更新十个单词/2025年停更）[PDF](/assets/doc/Vocab_Fr.pdf)。
 
 <h2 align="center">

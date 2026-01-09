@@ -14,13 +14,16 @@ permalink: "/trabajos/index.html"
 - [Séminaire](seminaire.html)
 - [AMC](AMC.html)
 
+Athenes:
+- [Acropolis](acropolis.html)
+
 巴黎拍摄：
 - [Fluctuat nec mergitur 徽标地点](fluctuat-nec-mergitur-徽标地点.html)
 - [巴黎拍摄点](巴黎拍摄点.html)
 - [巴黎馆子](巴黎馆子.html)
 
 Technicalities:
-- [报销表模板](baoxiao.html)
+- [报销表模板](/html/baoxiao.html)
 - [Comptabilité](comptabilite-FUN-MOOC.html)
 - [latex-md5](latex-md5.html)
 
