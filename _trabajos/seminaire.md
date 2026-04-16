@@ -4,7 +4,7 @@ date: 2024-03-06
 last_modified_at: 2024-03-20
 categories: 
   - "trabajos"
-  - "shuyue-M2"
+  - "notes"
 # layout: page_light
 ---
 

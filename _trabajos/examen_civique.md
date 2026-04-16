@@ -1,6 +1,7 @@
 ---
 title: Examen civique 公民考试
 categories: 
+  - "trajabos"
   - "notes"
 # layout: page_light
 ---
