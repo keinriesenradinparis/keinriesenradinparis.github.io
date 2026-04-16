@@ -16,7 +16,7 @@ permalink: "/trabajos/index.html"
 
 Athenes:
 - Before visiting, have a look at greek noun declension on [wiki](https://en.wikipedia.org/wiki/Modern_Greek_grammar#Nouns).
-- [Athena](athena.html)
+- [Athena介绍](athena.html)
 - [雅典卫城与南坡遗址介绍](acropolis.html)
 - Olympic:
     - [奧林匹斯十二主神](https://zh.wikipedia.org/zh-cn/%E5%A5%A7%E6%9E%97%E5%8C%B9%E6%96%AF%E5%8D%81%E4%BA%8C%E4%B8%BB%E7%A5%9E)
