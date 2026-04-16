@@ -25,17 +25,17 @@ Modular forms and Elliptic Curves Database:
 
 Hellmann: $A$ is more like coefficient -- we do not take the FF-curve.
 
-<!-- $$
+$$
 \newcommand{\B}{\mathbf{B}}
 \newcommand{\Sfrak}{\mathfrak{S}}
 \newcommand{\DM}{\mathrm{DM}}
 \newcommand{\FF}{\mathrm{FF}}
 \newcommand{\RigDA}{\mathrm{RigDA}}
 \newcommand{\sp}{\mathrm{sp}}
-$$ -->
+$$
 
-Vezzani: motives give you "mysterious pullback functors" that would not exist if we do not contract $\mathbf{B}^1$.
-- The motivic "specialisation functor" $\mathfrak{S}_\eta \to \mathfrak{S}_0$ that allows pullback $\mathrm{sp}^* \colon \mathrm{DM}(\mathfrak{S}_0) \to \mathrm{RigDA}(\mathfrak{S}_\eta)$.
-- The motivic "map" $X_{\mathrm{FF},S} \to S$ that gives $\pi^* \colon \mathrm{RigDA}(S) \to \mathrm{RigDA}(X_{\mathrm{FF},S})$.
-- (Spreading out) If $S \sim \varprojlim_\alpha S_\alpha$, then $\mathrm{RigDA}(S) \simeq \varinjlim_{\alpha,\mathrm{Pr}^L} \mathrm{RigDA}(S_\alpha)$.
+Vezzani: motives give you "mysterious pullback functors" that would not exist if we do not contract $\B^1$.
+- The motivic "specialisation functor" $\Sfrak_\eta \to \Sfrak_0$ that allows pullback $\sp^* \colon \DM(\Sfrak_0) \to \RigDA(\Sfrak_\eta)$.
+- The motivic "map" $X_{\FF,S} \to S$ that gives $\pi^* \colon \RigDA(S) \to \RigDA(X_{\FF,S})$.
+- (Spreading out) If $S \sim \varprojlim_\alpha S_\alpha$, then $\RigDA(S) \simeq \varinjlim_{\alpha,\mathrm{Pr}^L} \RigDA(S_\alpha)$.
 	- Subtleties: cannot descent smooth maps over $S$ to some $S_\alpha$ without homotopies.
