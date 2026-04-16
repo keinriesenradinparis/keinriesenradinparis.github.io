@@ -43,3 +43,6 @@ Math and IT:
 
 Books
 - <https://annas-archive.org/>
+
+工作
+- [法国公民考试](/trabajos/examen_civique.html)
