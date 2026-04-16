@@ -23,14 +23,12 @@ Root stacks and Kato-Nakayama spaces:
 Modular forms and Elliptic Curves Database:
 - <https://www.lmfdb.org/EllipticCurve/>
 
-$$
-\newcommand{\B}{\mathbf{B}}
+$\newcommand{\B}{\mathbf{B}}
 \newcommand{\Sfrak}{\mathfrak{S}}
 \newcommand{\DM}{\mathrm{DM}}
 \newcommand{\FF}{\mathrm{FF}}
 \newcommand{\RigDA}{\mathrm{RigDA}}
-\newcommand{\sp}{\mathrm{sp}}
-$$
+\newcommand{\sp}{\mathrm{sp}}$
 
 Hellmann: $A$ is more like coefficient -- we do not take the FF-curve.
 
