@@ -23,15 +23,14 @@ Root stacks and Kato-Nakayama spaces:
 Modular forms and Elliptic Curves Database:
 - <https://www.lmfdb.org/EllipticCurve/>
 
+Hellmann: $A$ is more like coefficient -- we do not take the FF-curve.
+
 $\newcommand{\B}{\mathbf{B}}
 \newcommand{\Sfrak}{\mathfrak{S}}
 \newcommand{\DM}{\mathrm{DM}}
 \newcommand{\FF}{\mathrm{FF}}
 \newcommand{\RigDA}{\mathrm{RigDA}}
 \newcommand{\sp}{\mathrm{sp}}$
-
-Hellmann: $A$ is more like coefficient -- we do not take the FF-curve.
-
 Vezzani: motives give you "mysterious pullback functors" that would not exist if we do not contract $\B^1$.
 - The motivic "specialisation functor" $\Sfrak_\eta \to \Sfrak_0$ that allows pullback $\sp^* \colon \DM(\Sfrak_0) \to \RigDA(\Sfrak_\eta)$.
 - The motivic "map" $X_{\FF,S} \to S$ that gives $\pi^* \colon \RigDA(S) \to \RigDA(X_{\FF,S})$.
