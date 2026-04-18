@@ -7,9 +7,12 @@ example: Example Text
 ## Who am I
 
 This is a good question. But here is a selfie of myself:
+
 <img style="display:block; margin: 10px auto;" 
   src="assets/img/Sibirischer_tiger_de_edit02.jpg"
   alt="face of a big tiger">
+
+Tigers do not <a href="/trabajos/" style="color: inherit;">work</a>, tigers eat.
 
 
 

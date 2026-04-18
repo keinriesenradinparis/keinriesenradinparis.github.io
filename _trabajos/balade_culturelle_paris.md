@@ -286,27 +286,6 @@ Paris 8e, salle Chopin (petite salle de concert).
 **Club Polonais**  
 Rue Godot-de-Mauroy, Paris 9e.
 
-|                                                                                                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                                                                                                                                                                                                                                       |
-|                                                                                                                                                                                                                                       |
-|                                                                                                                                                                                                                                       |
-| **Salle Le Peletier  <br>**(ancien Opéra)  <br>12, rue Le Peletier, Paris 9e.                                                                                                                                                         |
-| **Église Saint-Germain-des-Prés**  <br>Place Saint-Germain-des-Prés, Paris 6e.                                                                                                                                                        |
-|                                                                                                                                                                                                                                       |
-| **Cimetière du Père-Lachaise**  <br>Paris 20e.  <br>Le monument funéraire, œuvre de Clésinger et financé par un comité présidé par Delacroix, sera inauguré officiellement le 17 octobre 1850.                                        |
-| **Musée de la vie romantique  <br>**Hôtel Renan-Scheffer, 16, rue Chaptal, Paris 9e.Collections de souvenirs ayant appartenu à des écrivains, des artistes et des musiciens de l'époque liés à Chopin.                                |
-| **Bibliothèque Polonaise**  <br>6, quai d'Orléans, Paris 4e.  <br>Société historique et littéraire polonaise à Paris, petit musée (empreinte de la main gauche, portraits, partitions, mèche de cheveux, fauteuil, masque mortuaire). |
-| **Musée de la Musique**  <br>Cité de la Musique, à la Villette, Paris 19e.Possède le piano de Chopin.                                                                                                                                 |
-| **Musée du Louvre**  <br>Paris 1er.  <br>Célèbre portrait de Chopin par Delacroix.                                                                                                                                                    |
-| **Parc Monceau  <br>**Paris 8e.  <br>Statue de Chopin.                                                                                                                                                                                |
-| **Jardin du Luxembourg**  <br>Paris 6e.  <br>Buste de Chopin.                                                                                                                                                                         |
-| **Orangerie du parc de Bagatelle**  <br>Paris 16e.  <br>Festival Chopin depuis 1983.                                                                                                                                                  |
-| **Place Chopin**  <br>Paris 16e.  <br>Baptisée ainsi en 1897.                                                                                                                                                                         |
-| **Hôtel Chopin  <br>**Paris 9e, passage Jouffroy.                                                                                                                                                                                     |
-| **Salle Pleyel**  <br>Paris 8e, salle Chopin (petite salle de concert).                                                                                                                                                               |
-| **Club Polonais**  <br>Rue Godot-de-Mauroy, Paris 9e.                                                                                                                                                                                 |
-
 ## La Défense
 
 Guide artistique à la Défense:
