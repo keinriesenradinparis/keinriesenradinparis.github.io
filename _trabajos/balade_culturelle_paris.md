@@ -304,6 +304,13 @@ Guide artistique à la Défense:
 - **Le Pouce**（César Baldaccini）：巨型拇指雕塑，象征**创造力与个体力量**  
 - **Les Trois Arbres**：三棵抽象金属“树”，象征**自然与工业城市关系**  
 - **Araignée Rouge**（Alexander Calder）：红色蜘蛛动态雕塑，强调**运动感与视觉张力**
+- **La Danse**：表现人体律动的抽象雕塑，强调**身体、节奏与空间关系**  
+- **Cheminée végétalisée**：植被覆盖的工业烟囱装置艺术，将工业结构转化为**生态共生象征**  
+- **Le Moretti**（Raymond Moretti）：覆盖通风塔的大型彩色装置，被视为La Défense的视觉地标之一  
+- **Les Grandes Chaises（大板凳）**：巨型公共座椅装置艺术，通过尺度放大制造日常物件的陌生化效果，使其既是功能性休息设施，也是城市戏剧化空间节点  
+- **La Fontaine Monumentale / Bassin Takis**：以水与光为核心的动态装置，结合喷泉与几何结构，强化空间的节奏感与反射效果  
+- **Personnages Fantastiques（幻想人物系列）**：分布式雕塑群，以抽象人形或符号化身体语言嵌入广场空间，强调“行走中的艺术体验”  
+- **Signaux / Totems urbains**：一系列垂直雕塑与信号式结构，类似城市“标记系统”，用于强化空间方向感与视觉节点识别  
 
 整体来看，La Défense的公共艺术体系并非附属装饰，而是城市身份与现代性表达的一部分，通过艺术削弱商业区的机械感，同时强化法国现代文化形象。
 
