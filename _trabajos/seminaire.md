@@ -1,5 +1,5 @@
 ---
-title: Séminaire d'Alain Milon
+title: Séminaires divers
 date: 2024-03-06
 last_modified_at: 2024-03-20
 categories: 
@@ -10,7 +10,10 @@ categories:
 
 <!-- FORMAT: `### DATE` plus your content -->
 
-## Séminaire en ligne - La honte
+* Table of contents
+{:toc}
+
+## Séminaire en ligne d'Alain Milon - La honte
 
 ### 06 mars 2024
 
