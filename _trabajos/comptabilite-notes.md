@@ -1,17 +1,30 @@
 ---
-title: Comptabilité FUN-MOOC
+title: Notes Comptabilité
 date: 2025-07-29
+# last_modified_at: 2026-04-20
 categories: 
   - "trabajos"
 # layout: page_light
 ---
 
-<!-- # Comptabilité FUN-MOOC -->
-
 > [!NOTE] Summary
-> Ce sont des notes rassemblées de cours sur FUN-MOOC.
+> Ce sont des notes rassemblées autour de la comptabilité.
+
+* Table of contents
+{:toc}
+
+## Liens utiles
+
+Liens utiles pour la compta :
+- 法律原文：[Legifrance](https://www.legifrance.gouv.fr)
+- 社保规定：[URSSAF](https://www.urssaf.fr/accueil.html)
+- 税务规定：[DGFIP](https://www.impots.gouv.fr/accueil)
+- 税务规定解释更新：[BOFIP](https://bofip.impots.gouv.fr)，如某种费用是否可抵扣、特殊情况下如何计税
+- 会计师协会实务解读平台：[Ordre des Experts-Comptables](https://www.experts-comptables.fr)
 
 ## UMontpellier - Comptabilité de gestion et pratique du tableur
+
+Ce sont des notes pris d'un cours sur FUN-MOOC.
 
 ### Introduction et notions clés
 
@@ -127,4 +140,3 @@ Coûts partiels:
 - CV: $y = b x$.
 - CF: $y = c$.
 - SR: les données correspondantes au point d'intersection de CV et CF.
-

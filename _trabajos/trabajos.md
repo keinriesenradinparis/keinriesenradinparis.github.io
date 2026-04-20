@@ -32,7 +32,7 @@ Athenes:
 
 Technicalities:
 - [报销表模板](/html/baoxiao.html)
-- [Comptabilité](comptabilite-FUN-MOOC.html)
+- [Comptabilité](comptabilite-notes.html)
 - [latex-md5](latex-md5.html)
 
 Math and IT:
