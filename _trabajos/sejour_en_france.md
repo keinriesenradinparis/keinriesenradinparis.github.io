@@ -1,12 +1,17 @@
 ---
-title: Examen civique 公民考试
+title: Séjour en France
 categories: 
   - "trajabos"
   - "notes"
 # layout: page_light
 ---
 
-## Examen civique
+## Lien utiles
+
+一些续居留可能会用上的资料和链接：
+- Tianyi Li 的[法国居留法律信息与咨询博客](https://www.litianyi.me/tds/)里有一些学习、职员、创业居留和家庭团聚相关的居留申请程序信息分享。
+
+## Examen civique 公民考试
 
 ### FAQ
 

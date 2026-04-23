@@ -48,7 +48,7 @@ Books:
 - Open-access Library [Resources](https://annas-archive.org/) (Yeah!)
 
 工作：
-- [法国公民考试](/trabajos/examen_civique.html)
+- [](/trabajos/sejour_en_france.html)：居留相关、公民考试
 
 无聊：
 - [地中海邮轮](地中海邮轮.html)
